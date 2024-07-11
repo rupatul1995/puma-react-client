@@ -78,8 +78,115 @@ function PumaHome(){
                 <div className="coolstyles2">
                     <p>FLAT 40% OFF | + EXTRA 5% OFF ON ALL ONLINE PAYMENTS</p>
                 </div>
-                <div className="coolstyles3"></div>
+                <div className="coolstyles3">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
                 </div>
+                </div>
+
+                <div className="divindian">
+                  <div className="seasonindian">
+                    <div className="seasonindian1" >
+                        <h1>SEE THE GAME LIKE WE DO</h1>
+                    </div>
+                    <div className="seasonindian2">
+                        <p>PUMA x INDIAN OLYMPIC ASSOCITION</p>
+                    </div>
+                    <div className="seasonindian3">
+                        <p>
+                        Offical footwear Partner
+                        </p>
+                    </div>
+                    <div className="seasonindian4">
+                        <p>LEARN MORE</p>
+                        
+                    </div>
+                  </div>
+                </div>
+
+                <div className="playloud">
+                  <div className="seasonplay">
+                    <div className="seasonplay1" >
+                        <h1>PLAY LOUD</h1>
+                    </div>
+                    <div className="seasonplay2">
+                        <p>BREAK IT DOWN</p>
+                    </div>
+                    
+                    <div className="seasonplay4">
+                        <p>SHOP NOW </p>
+                        
+                    </div>
+                  </div>
+                </div>
+
+
+                <div className="azzura">
+                  <div className="seasonazzura">
+                    <div className="seasonazzura1" >
+                        <h1>BACK TO AZZURRO</h1>
+                    </div>
+                    <div className="seasonazzura2">
+                        <p>SCUDERIA FERRARI MIAMI LIMITED EDITION</p>
+                    </div>
+                    
+                    <div className="seasonazzura4">
+                        <p>SHOP NOW</p>
+                        
+                    </div>
+                  </div>
+                </div>
+
+
+                <div className="divcarrot">
+                  <div className="seasoncarrot">
+                    <div className="seasoncarrot1" >
+                        <h1>PUMA X CARROTS</h1>
+                    </div>
+                    <div className="seasoncarrot2">
+                        <p>BY ANWAR CARROTS</p>
+                    </div>
+                    <div className="seasoncarrot3">
+                        <p>
+                     ORIGANIC XL CARROTS
+                        </p>
+                    </div>
+                    <div className="seasoncarrot4">
+                        <p>SHOP NOW </p>
+                        
+                    </div>
+                  </div>
+                </div>
+
+
+                <div className="divpalm">
+                  <div className="seasonpalm">
+                    <div className="seasonpalm1" >
+                        <h1>PUMA x PALM</h1>
+                    </div>
+                    <div className="seasonpalm2">
+                        <h1>TREE CREW</h1>
+                    </div>
+                    <div className="seasonpalm3">
+                        <p>
+                    CLASSIC SPORT STYLE
+                        </p>
+                    </div>
+                    <div className="seasonpalm4">
+                        <p>SHOP NOW </p>
+                        
+                    </div>
+                  </div>
+                </div>
+
+                <div className="divvideo">
+                <video src="https://cdn.sanity.io/files/qa41whrn/prod/41abad3662b8524f819e624d4ae4c6c5f6f38239.mp4+++++"></video>
+                </div>
+
     </div>
         </div>
     );
