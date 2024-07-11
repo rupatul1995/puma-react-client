@@ -2,6 +2,7 @@
     width: 100%;
     margin: 0px;
     padding: 0px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .miandiv{
 
@@ -15,12 +16,13 @@
     background-color: #8a7350;
     color: white;
     font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
+font-weight: 600;
 font-style: normal;
-font-size: 20px;
+font-size: 15px;
 
 display: flex;
 align-items: center;
+font-family: "Roboto Condensed", sans-serif;
 }
 
 .nav{
@@ -30,13 +32,19 @@ height: 70px;
 display: flex;
 background-color: black;
 color: white;
+font-family: "Roboto Condensed", sans-serif;
 }
 
 .nav1{
 width: 10%;
   border: 2px solid rgb(19, 2, 2);
 display: flex;
+font-family: "Roboto Condensed", sans-serif;
 }
+.nav1 >img{
+  height:60px;
+}
+
 
 .nav2{
 width: 70%;
@@ -47,8 +55,39 @@ align-items: center;
 font-family: "Bebas Neue", sans-serif;
 font-weight: 400;
 font-style: normal;
-font-size: 20px;
+font-size: 18px;
+font-family: "Roboto Condensed", sans-serif;
 
+}
+.nav2 > a:nth-child(1){
+  width: 5%;
+  /* border: 2px solid white; */
+  margin-right: 25px;
+}
+.nav2 > a:nth-child(2){
+  width: 9%;
+  /* border: 2px solid white; */
+  margin-right: 25px;
+}
+.nav2 > a:nth-child(3){
+  width: 15%;
+  /* border: 2px solid white; */
+  margin-right: 30px;
+}
+.nav2 > a:nth-child(4){
+  width: 15%;
+  /* border: 2px solid white; */
+  margin-right: 20px;
+}
+.nav2 > a:nth-child(8){
+  width: 15%;
+  /* border: 2px solid white; */
+  margin-right: 30px;
+}
+.nav2 > a:nth-child(9){
+  width: 15%;
+  /* border: 2px solid white; */
+  margin-right: 40px;
 }
 
 
@@ -103,4 +142,26 @@ align-items: center;
 text-align: center;
 
 
+}
+
+.divflat{
+  width:100%;
+  height: 450px;
+  border: 2px solid red;
+  background-image:url("https://cdn.sanity.io/images/qa41whrn/prod/09646d25a041fa5bb063844eaad9fdae3af30fde-2880x1040.jpg?w=1440&q=80&auto=format");
+  background-size: cover;
+}
+.seasonsale{
+  width:35%;
+  height: 280px;
+  border: 2px solid white;
+  margin-left: 800px;
+  margin-top: 110px;
+  color: white;
+}
+.seasonsale1{
+  width:100%;
+  height: 80px;
+  border: 2px solid white;
+  color: white;
 }
