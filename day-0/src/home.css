@@ -5,7 +5,8 @@
     font-family: "Roboto Condensed", sans-serif;
 }
 .miandiv{
-
+   width: 100%;
+   height: 15000px;
     border: 2px solid black;
 
 }
@@ -87,7 +88,7 @@ font-family: "Roboto Condensed", sans-serif;
 .nav2 > a:nth-child(9){
   width: 15%;
   /* border: 2px solid white; */
-  margin-right: 40px;
+  margin-right: 30px;
 }
 
 
@@ -131,7 +132,7 @@ font-size: 18px;
 
 
 }
-.lastbody{
+/* .lastbody{
 width: 100%;
 height: 90px;
 color: white;
@@ -142,26 +143,104 @@ align-items: center;
 text-align: center;
 
 
-}
+} */
 
 .divflat{
   width:100%;
   height: 450px;
-  border: 2px solid red;
+  border: 2px solid rgb(236, 125, 125);
   background-image:url("https://cdn.sanity.io/images/qa41whrn/prod/09646d25a041fa5bb063844eaad9fdae3af30fde-2880x1040.jpg?w=1440&q=80&auto=format");
   background-size: cover;
+  
 }
 .seasonsale{
-  width:35%;
-  height: 280px;
-  border: 2px solid white;
-  margin-left: 800px;
-  margin-top: 110px;
+  width:32%;
+  height: 230px;
+  /* border: 2px solid white;  */
+  margin-left: 850px;
+  margin-top: 150px;
   color: white;
 }
 .seasonsale1{
   width:100%;
-  height: 80px;
-  border: 2px solid white;
+  height: 40px;
+  /* border: 2px solid white; */
   color: white;
+}
+.seasonsale2{
+  width:100%;
+  height: 30px;
+  /* border: 2px solid white; */
+  font-size: 23px;
+  margin-top: 8px;
+ 
+}
+.seasonsale3{
+  width:100%;
+  height: 30px;
+  /* border: 2px solid white; */
+  font-size: 14px;
+  margin-top: 8px;
+
+}
+.seasonsale4{
+  width:100%;
+  height: 50px;
+  /* border: 2px solid white; */
+  font-size: 14px;
+  margin-top: 8px;
+  display: flex;
+  color: black;
+  justify-content: space-between;
+ 
+  
+
+}
+
+.seasonsale4 p:nth-child(1){ 
+  width:30%;
+  height: 30px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-color: white;
+  padding-top: 18px;
+  font-weight: bolder
+}
+
+.seasonsale4 p:nth-child(2){ 
+  width:30%;
+  height: 30px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-color: white;
+  padding-top: 18px;
+  font-weight: bolder
+}
+
+
+.seasonsale4 p:nth-child(3){ 
+  width:30%;
+  height: 30px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-color: white;
+  padding-top: 18px;
+  font-weight: bolder
+}
+.coolstyles{
+  width:100%;
+  height: 380px;
+  border: 2px solid rgb(17, 16, 16);
+}
+
+.coolstyles1{
+  width:90%;
+  height: 60px;
+  border: 2px solid rgb(236, 90, 90);
+  margin: auto;
+  margin-top: 80px;
+}
+.coolstyles2{
+  width:90%;
+  height: 40px;
+  border: 2px solid rgb(236, 90, 90);
+  margin: auto;
+  
 }

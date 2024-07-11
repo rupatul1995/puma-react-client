@@ -55,10 +55,30 @@ function PumaHome(){
                     <div className="seasonsale1" >
                         <h1>END OF SEASON SALE</h1>
                     </div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div className="seasonsale2">
+                        <p>NEW STYLES ADDED</p>
+                    </div>
+                    <div className="seasonsale3">
+                        <p>
+                            +EXTRA 5% OF ALL ONLINE PAYMENTS
+                        </p>
+                    </div>
+                    <div className="seasonsale4">
+                        <p>FOR HIM</p>
+                        <p>FOR HER</p>
+                        <p>FOR KIDS</p>
+                    </div>
                   </div>
+                </div>
+
+                <div className="coolstyles">
+                <div className="coolstyles1">
+                    <h1>COOL STYLES AT HOT DISCOUNTS</h1>
+                </div>
+                <div className="coolstyles2">
+                    <p>FLAT 40% OFF | + EXTRA 5% OFF ON ALL ONLINE PAYMENTS</p>
+                </div>
+                <div className="coolstyles3"></div>
                 </div>
     </div>
         </div>
