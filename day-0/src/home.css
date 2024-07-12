@@ -56,7 +56,7 @@ align-items: center;
 font-family: "Bebas Neue", sans-serif;
 font-weight: 400;
 font-style: normal;
-font-size: 18px;
+font-size: 16px;
 font-family: "Roboto Condensed", sans-serif;
 
 }
@@ -647,18 +647,19 @@ text-align: center;
 .divvideo{
   width:100%;
   height: 450px;
-  border: 0.1px solid rgb(243, 237, 237);
+  border: 0.1px solid rgb(24, 20, 20);
   border-top: 10px solid white;
   color: white;
   text-align: left;
+
  
 }
 
-.seasonvideo{
+/* .seasonvideo{
   width:35%;
-  height: 230px;
+  height: 230px; */
   /* border: 2px solid white;  */
-  margin-top: 150px;
+  /* margin-top: 150px;
   color: white;
   margin-left: 50px;
   margin-left: 450px;
@@ -667,8 +668,601 @@ text-align: center;
 }
 .seasonvideo1{
   width:100%;
+  height: 40px; */
+  /* border: 2px solid white; */
+  /* color: white;
+  font-size: 18px;
+ 
+} */
+
+
+.divfuture{
+  width:100%;
+  height: 450px;
+  border: 0.1px solid rgb(243, 237, 237);
+  border-top: 10px solid white;
+  color: white;
+  background-image:url("https://cdn.sanity.io/images/qa41whrn/prod/72fb3fa9e0c4d6e600bc1b79551ef4cbba205719-6000x2167.jpg?w=1440&amp;q=80&amp;auto=format");
+  background-size: cover;
+  text-align: left;
+  margin-top: 10px;
+ 
+}
+
+.seasonfuture{
+  width:35%;
+  height: 230px;
+  /* border: 2px solid white;  */
+  margin-left: 850px;
+  margin-top: 150px;
+  color: white;
+  text-align: center;
+ 
+  
+}
+.seasonfuture1{
+  width:100%;
   height: 40px;
   /* border: 2px solid white; */
   color: white;
   font-size: 18px;
+  margin-top: 8px;
+}
+.seasonfuture2{
+  width:100%;
+  height: 30px;
+  /* border: 2px solid white; */
+  font-size: 22px;
+  margin-top: 8px;
+ 
+}
+
+.seasonfuture4{
+  width:100%;
+  height: 50px;
+  /* border: 2px solid white; */
+  font-size: 15px;
+  margin-top: 8px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+ margin-left:160px ;
+ 
+  
+
+}
+
+.seasonfuture4 p:nth-child(1){ 
+  width:26%;
+  height: 27px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-color:white;
+  padding-top: 18px;
+  color: black;
+  /* padding-left: 10px; */
+  font-weight: bolder
+  
+}
+
+.kisdstyles{
+  width:100%;
+  height: 130px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  text-align: center;
+
+}
+.kisdstyles >p {
+padding-top: 60px;
+font-weight: bolder;
+font-size: 27px;
+}
+
+.kisdstyles1{
+  width:95%;
+  height: 330px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-align: left;
+  line-height: 29px;
+}
+.card1{
+  width:24%;
+  height: 330px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/dfe752b0a313bc267f5aa23a412594d71f933c2b-1536x1536.jpg");
+background-size: cover;
+}
+
+.card1 >h3{
+  padding-top: 250px;
+}
+.card2{
+  width:24%;
+  height: 330px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/604102f5cbf9b160b4b545ab56561d152d06ac96-1536x1536.jpg");
+background-size: cover;
+}
+.card2 >h3{
+  padding-top: 250px;
+}
+.card3{
+  width:24%;
+  height: 330px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/5bc14638c184c4c775b2f90210427c3dd4aa33c1-1536x1536.jpg");
+background-size: cover;
+}
+.card3 >h3{
+  padding-top: 250px;
+}
+.card4{
+  width:24%;
+  height: 330px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/ec1fd75b27717e7a78c3fcf71e855d7298329370-1536x1536.jpg");
+background-size: cover;
+}
+.card4 >h3{
+  padding-top: 250px;
+ 
+}
+.velocity{
+  width:100%;
+  height: 750px;
+  border: 2px solid rgb(17, 16, 16);
+  margin-top: 50px;
+}
+.velocity1{
+  width:100%;
+  height: 480px;
+  border: 2px solid rgb(17, 16, 16);
+  margin: auto;
+  margin-top: 80px;
+  background-color: #adbccc;
+  display: flex;
+  
+}
+.velocity2{
+  width:40%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  margin-top: 40px;
+}
+
+.velocity3{
+  width:100%;
+  height: 50px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  display: flex;
+  margin-top: 20px;
+ 
+}
+.velocity3 p:nth-child(1){ 
+  width:20%;
+  height: 27px;
+  /* border: 2px solid rgb(175, 38, 38); */
+  background-color:black;
+  padding-top: 18px;
+  color: white;
+  margin-left: 50px;
+  font-weight: bolder
+  
+}
+.velocity3 p:nth-child(2){ 
+  width:40%;
+  height: 27px;
+  /* border: 2px solid rgb(209, 19, 19); */
+  background-color:rgb(19, 16, 16);
+  padding-top: 18px;
+  color: white;
+  margin-left: 40px;
+  font-weight: bolder
+  
+}
+
+.velocity4{
+  width:30%;
+  height: 350px;
+  border: 2px solid rgb(17, 16, 16); 
+  margin-top: 250px;
+  margin-right: 150px;
+}
+
+.velocity5{
+  width:40%;
+  height: 650px;
+  border: 2px solid rgb(17, 16, 16); 
+}
+
+
+
+
+.divmanchester{
+  width:100%;
+  height: 450px;
+  border: 0.1px solid rgb(243, 237, 237);
+  border-top: 10px solid white;
+  color: white;
+  background-image:url("https://cdn.sanity.io/images/qa41whrn/prod/3fe7386927ec3ba13893df6dd4fe8dcafb576b25-6000x2167.jpg?w=2160&q=80&auto=format");
+  background-size: cover;
+  text-align: left;
+ 
+}
+
+.seasonmanchester{
+  width:35%;
+  height: 230px;
+  /* border: 2px solid white;  */
+  /* margin-left: 950px; */
+  margin-top: 150px;
+  color: white;
+  margin-left: 50px;
+  
+}
+.seasonmanchester1{
+  width:100%;
+  height: 40px;
+  /* border: 2px solid white; */
+  color: white;
+  font-size: 18px;
+}
+.seasonmanchester2{
+  width:100%;
+  height: 30px;
+  /* border: 2px solid white; */
+  font-size: 22px;
+  margin-top: 8px;
+ 
+}
+
+.seasonmanchester3{
+    width:100%;
+    height: 50px;
+    /* border: 2px solid white; */
+    font-size: 15px;
+    margin-top: 8px;
+    display: flex;
+    color: white;
+ 
+
+   
+}
+
+.seasonmanchester3 p:nth-child(1){ 
+  width:26%;
+  height: 25px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-color:white;
+  padding-top: 15px;
+  color: black;
+  padding-left:15px;
+  font-weight: bolder
+
+}
+
+.seasonmanchester3 p:nth-child(2){ 
+  width:35%;
+  height: 25px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-color:white;
+  padding-top: 15px;
+  color:rgb(17, 16, 16);
+  margin-left: 30px;
+  padding-left:15px;
+  font-weight: bolder
+
+}
+
+
+.divsneakerhead{
+  width:100%;
+  height: 450px;
+  border: 2px solid rgb(228, 227, 227);
+  background-image:url("https://cdn.sanity.io/images/qa41whrn/prod/ac3fc79415884460f1a7b3459b333ff091dee5a5-6000x2167.jpg?w=2160&q=80&auto=format");
+  background-size: cover;
+  
+}
+.seasonsneakerhead{
+  width:32%;
+  height: 230px;
+  /* border: 2px solid white;  */
+  margin-left: 920px;
+  margin-top: 150px;
+  color: black;
+}
+.seasonsneakerhead1{
+  width:100%;
+  height: 40px;
+  /* border: 2px solid white; */
+  color: black;
+  font-size: 20px;
+}
+.seasonsneakerhead2{
+  width:100%;
+  height: 30px;
+  /* border: 2px solid white; */
+  font-size: 20px;
+  margin-top: 2px;
+ 
+}
+.seasonsneakerhead3{
+  width:100%;
+  height: 30px;
+  /* border: 2px solid white; */
+  font-size: 17px;
+  margin-top: 8px;
+
+}
+.seasonsneakerhead4{
+  width:100%;
+  height: 50px;
+  /* border: 2px solid white; */
+  font-size: 12px;
+  margin-top: 8px;
+  display: flex;
+  color: black;
+  
+}
+
+.seasonsneakerhead4 p:nth-child(1){ 
+  width:20%;
+  height: 22px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-color: black;
+  padding-top: 12px;
+  color: white;
+  margin-left: 110px;
+  font-weight: bolder
+}
+
+.seasonsneakerhead4 p:nth-child(2){ 
+  width:30%;
+  height: 22px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-color: black;
+  padding-top: 12px;
+  color: white;
+  margin-left: 30px;
+  font-weight: bolder
+}
+
+.divspotlight{
+  width:100%;
+  height: 450px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  margin-top: 20px;
+  
+}
+.divspotlight1{
+  width: 85%;
+  height: 30px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  font-size: 12px;
+  margin-left: 100px;
+  text-align: left;
+  padding-top: 50px;
+  
+}
+
+
+.divspotlight2{
+  width: 85%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.spotlightCard1{
+  width: 24%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+}
+.shoescard1{
+  width: 100%;
+  height: 280px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/399844/01/sv01/fnd/IND/fmt/png/PUMA-Court-Shatter-Low-Men's-Sneakers");
+  background-size: cover;
+}
+
+.redcard2{
+  width: 15%;
+  height: 15px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  font-size: 11px;
+  color: white;
+  background-color: #ac1e1e ;
+
+}
+.spotlightCard2{
+  width: 24%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+}
+.shoescard2{
+  width: 100%;
+  height: 280px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/387672/33/sv01/fnd/IND/fmt/png/Rider-Future-Vintage-Unisex-Sneakers");
+  background-size: cover;
+}
+.spotlightCard3{
+  width: 24%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+}
+.shoescard3{
+  width: 100%;
+  height: 280px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/107353/01/sv01/fnd/IND/fmt/png/Cricket-Square-Men's-Shoes");
+  background-size: cover;
+}
+.spotlightCard4{
+  width: 24%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+}
+.shoescard4{
+  width: 100%;
+  height: 280px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/192259/02/sv01/fnd/IND/fmt/png/Hybrid-NX-Men's-Running-Shoes");
+  background-size: cover;
+}
+
+.cardprice1 {
+  width: 100%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  display: flex;
+}
+
+.cardprice2{
+  width: 100%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  display: flex;
+}
+.cardprice3{
+  width: 100%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  display: flex;
+}
+.cardprice4{
+  width: 100%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  display: flex;
+}
+
+.pricedetail1{
+  width: 70%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  font-size: 17px;
+}
+.price1{
+  width: 30%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  color: rgb(179, 23, 23);
+  font-size: 12px;  
+}
+
+.pricedetail2{
+  width: 70%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  font-size: 17px;
+}
+.price2{
+  width: 30%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  color: rgb(179, 23, 23);
+  font-size: 12px;  
+}
+
+.pricedetail3{
+  width: 70%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  font-size: 17px;
+}
+.price3{
+  width: 30%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  color: rgb(179, 23, 23);
+  font-size: 12px;  
+}
+
+
+.pricedetail4{
+  width: 70%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  font-size: 17px;
+}
+.price4{
+  width: 30%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  color: rgb(179, 23, 23);
+  font-size: 12px;  
+}
+
+.divatlastic{
+  width:100%;
+  height: 450px;
+  border: 0.1px solid rgb(243, 237, 237);
+  border-top: 10px solid white;
+  color: white;
+  background-image:url("https://cdn.sanity.io/images/qa41whrn/prod/80d92bdf064393dc36761e47b7b28c7e6addb3e5-2880x1000.jpg?w=2160&q=80&auto=format");
+  background-size: cover;
+  text-align: left;
+  margin-top: 10px;
+ 
+}
+
+.seasonatlastic{
+  width:35%;
+  height: 230px;
+  /* border: 2px solid white;  */
+  /* margin-left: 850px; */
+  margin-top: 150px;
+  color: white;
+  text-align: center;
+ 
+  
+}
+.seasonatlastic1{
+  width:100%;
+  height: 40px;
+  /* border: 2px solid white; */
+  color: white;
+  font-size: 18px;
+  margin-top: 8px;
+}
+.seasonatlastic2{
+  width:100%;
+  height: 30px;
+  /* border: 2px solid white; */
+  font-size: 22px;
+  margin-top: 8px;
+ 
+}
+
+.seasonatlastic4{
+  width:100%;
+  height: 50px;
+  /* border: 2px solid white; */
+  font-size: 12px;
+  margin-top: 8px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+ margin-left:160px ;
+ 
+  
+
+}
+
+.seasonatlastic4 p:nth-child(1){ 
+  width:25%;
+  height: 22px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-color:white;
+  padding-top: 14px;
+  color: black;
+  /* padding-left: 10px; */
+  font-weight: bolder
+  
 }

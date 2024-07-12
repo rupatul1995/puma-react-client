@@ -1,8 +1,8 @@
 import "./home.css";
 
 
-function PumaHome(){
-    return(
+function PumaHome() {
+    return (
         <div>
             <div class="miandiv">
                <div class="extra">
@@ -184,8 +184,213 @@ function PumaHome(){
                 </div>
 
                 <div className="divvideo">
-                <video src="https://cdn.sanity.io/files/qa41whrn/prod/41abad3662b8524f819e624d4ae4c6c5f6f38239.mp4+++++"></video>
+                <video autoplay="autoplay" muted loop>
+                            <source src="https://cdn.sanity.io/files/qa41whrn/prod/41abad3662b8524f819e624d4ae4c6c5f6f38239.mp4" type="video/mp4"/>
+                        </video>
                 </div>
+
+
+
+                <div className="divfuture">
+                  <div className="seasonfuture">
+                    <div className="seasonfuture1" >
+                        <h1>THE FUTURE IS NOW</h1>
+                    </div>
+                    <div className="seasonfuture2">
+                        <p>THE NEXT GEN OF PUMA</p>
+                    </div>
+                    <div className="seasonfuture3">
+                        <p>
+                    RIYAN PARAG & NITISH KUMAR REDDY
+                        </p>
+                    </div>
+                    <div className="seasonfuture4">
+                        <p>SHOP NOW </p>
+                        
+                    </div>
+                  </div>
+                </div>
+
+                <div className="kisdstyles">
+                    <p>KIDS' MUST-HAVE STYLES</p>
+                </div>
+
+                <div className="kisdstyles1">
+                    <div className="card1">
+                        <h3>SCHOOL STORE</h3>
+                        <p> One Stop Shop</p>
+
+                    </div>
+
+                    <div className="card2">
+                    <h3> CASUAL WEAR</h3>
+                    <p> Wardrobe Staples</p>
+                    </div>
+
+                    <div className="card3">
+                    <h3>SOFTRIDE SHOES</h3>
+                    <p>Everyday Comfort </p>
+                    </div>
+
+                    <div className="card4">
+                    <h3>SETS</h3>
+                    <p>Make Statement</p>
+                    </div>
+                </div>
+
+                {/* <div className="velocity">
+                 <div  className="velocity1">  
+                    <div  className="velocity2">
+                    <h1>
+                    VELOCITY NITRO™ 3</h1>
+                    <p>THE WAY RUNNING SHOULD FEEL</p>
+                    <div  className="velocity3">
+                    <p>SHOP NOW</p>
+                    <p>SHOP NITRO COLLECTON</p> 
+                    </div>
+                    </div>
+                   
+                    <div  className="velocity4">
+
+                    </div>
+                    <div  className="velocity5"></div>
+               </div>
+                  
+                </div> */}
+
+
+                <div className="divmanchester">
+                  <div className="seasonmanchester">
+                    <div className="seasonmanchester1" >
+                        <h1>MANCHESTER CALLING</h1>
+                    </div>
+                    <div className="seasonmanchester2">
+                        <p>24/25 MAN CITY HOME KIT</p>
+                    </div>
+                    
+                    <div className="seasonmanchester3">
+                        <p>SHOP NOW </p>
+                        <p>SHOP COLLECTON </p>
+                        
+                    </div>
+                  </div>
+                </div>
+
+                 
+                <div className="divsneakerhead">
+                  <div className="seasonsneakerhead">
+                    <div className="seasonsneakerhead1" >
+                        <h2>FOR ALL THE </h2>
+                    </div>
+                    <div className="seasonsneakerhead2">
+                        <h2>SNEAKERHEADS</h2>
+                    </div>
+                    <div className="seasonsneakerhead3">
+                        <p>
+                            YOUR ONE+STEP SNEAKER SHOP
+                        </p>
+                    </div>
+                    <div className="seasonsneakerhead4">
+                        <p>SHOP NOW</p>
+                        <p>EXPLORE MORE</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="divspotlight">
+                    <div className="divspotlight1">
+                        <h2>PUMA SPOTLIGHT</h2>
+                    </div>
+                    
+                    <div  className="divspotlight2">
+                    <div  className="spotlightCard1">
+                        <div className="shoescard1">
+                        <div className="redcard2" >
+                        <p>-53%</p>
+                         </div>
+                        </div>
+                        <div className="cardprice1">
+                            <div className="pricedetail1">
+                            <h6>PUMA Court Shatter Low Men's Sneakers</h6>
+                            </div>
+                            <div className="price1">
+                             <p>₹2,819</p>
+                             </div>
+                        </div>
+                    </div>
+
+                    <div className="spotlightCard2">
+                    <div className="shoescard2">
+                    <div className="redcard2" >
+                    <p>-40%</p>
+                    </div>
+                    </div>
+                    <div className="cardprice2">
+                    <div className="pricedetail2">
+                            <h6>Rider Future Vintage Unisex Sneakers</h6>
+                            </div>
+                            <div className="price2">
+                             <p>₹5,399</p>
+                             </div>
+                    </div>
+                    </div>
+
+                    <div className="spotlightCard3">
+                    <div className="shoescard3">
+                    <div className="redcard2" >
+                    <p>-50%</p>
+                    </div>
+                    </div>
+                    <div className="cardprice3">
+                    <div className="pricedetail3">
+                            <h6>Cricket Square Men's Shoes</h6>
+                            </div>
+                            <div className="price3">
+                             <p>₹2,499</p>
+                             </div>
+                    </div>
+                    </div>
+
+                    <div className="spotlightCard4">
+                    <div className="shoescard4">
+                    <div className="redcard2" >
+                    <p>-55%</p>
+                    </div>
+                    </div>
+                    <div className="cardprice4">
+                    <div className="pricedetail4">
+                            <h6>Hybrid NX Men's Running Shoes</h6>
+                            </div>
+                            <div className="price4">
+                             <p>₹3,369</p>
+                             </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+
+
+                <div className="divatlastic">
+                  <div className="seasonatlastic">
+                    <div className="seasonatlastic1" >
+                        <h1>PUMA x ATHLETICS</h1>
+                    </div>
+                    <div className="seasonatlastic2">
+                        <p>FEDERATION OF INDIA</p>
+                    </div>
+                    <div className="seasonatlastic3">
+                        <p>
+                   A NEW ERA OF SPEED, STRENGTH & SPIRIT
+                        </p>
+                    </div>
+                    <div className="seasonatlastic4">
+                        <p>LEARN MORE </p>
+                        
+                    </div>
+                  </div>
+                </div>
+
+
 
     </div>
         </div>
