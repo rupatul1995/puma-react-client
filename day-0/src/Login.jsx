@@ -1,7 +1,14 @@
+import { useNavigate } from "react-router-dom";
 import "./login.css";
 
 
 function Login(){
+
+    const router=useNavigate();
+
+function GoRegister(){
+    router("/register");
+}
     return(
         <div>
             <div class="miandiv">
@@ -38,7 +45,7 @@ function Login(){
 
                     <i class="fa-regular fa-heart"></i>
                     <i class="fa-solid fa-cart-shopping"></i>
-                    <i class="fa-regular fa-user">
+                    <i class="fa-regular fa-user" onClick={GoRegister}>
                     
                     </i>
                    
@@ -93,7 +100,7 @@ function Login(){
 
 
         <div className="lastdiv">
-            
+
         </div>
           
      </div> 

@@ -38,16 +38,18 @@ font-family: "Roboto Condensed", sans-serif;
 
 .nav1{
 width: 12%;
-  border: 2px solid rgb(19, 2, 2);
+  /* border: 2px solid rgb(241, 232, 232); */
 display: flex;
 font-family: "Roboto Condensed", sans-serif;
+height:30px;
 }
 .nav1 >img{
-  height:60px;
+  width: 80%;
+  /* border: 2px solid rgb(241, 232, 232); */
 }
 
 .nav2{
-  width: 60%;
+  width: 40%;
   /* border: 2px solid rgb(230, 225, 225); */
   display: flex;
   justify-content: space-evenly;
@@ -55,7 +57,7 @@ font-family: "Roboto Condensed", sans-serif;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
+  font-size: 1px;
   margin-right: 50px;
   font-family: "Roboto Condensed", sans-serif;
   
@@ -123,6 +125,20 @@ width: 15%;
   margin-top: 10px;
 }
 
+/* 
+.content >a{
+  display: block;
+  padding: 10px 15px;
+
+}
+
+.content{
+  background-color: #bdbcbc;
+  position: absolute;
+  min-width: 100px;
+  box-shadow: 2px 2px 5px rgb(49, 49, 49)0, 63, 63;
+  display: none;
+} */
 .input{
 border: none;
 outline: none;
@@ -811,75 +827,46 @@ background-size: cover;
   padding-top: 250px;
  
 }
-.velocity{
-  width:100%;
-  height: 750px;
-  border: 2px solid rgb(17, 16, 16);
-  margin-top: 50px;
-}
-.velocity1{
-  width:100%;
-  height: 480px;
-  border: 2px solid rgb(17, 16, 16);
-  margin: auto;
-  margin-top: 80px;
-  background-color: #adbccc;
-  display: flex;
-  
-}
-.velocity2{
-  width:40%;
-  height: 350px;
-  /* border: 2px solid rgb(17, 16, 16); */
-  margin-top: 40px;
+
+/* .velocitynitro{
+   width: 100%;
+   height: 750px;
+   position: relative;
 }
 
-.velocity3{
-  width:100%;
-  height: 50px;
-  /* border: 2px solid rgb(17, 16, 16); */
-  display: flex;
-  margin-top: 20px;
- 
+.velocitynitrocolor{
+  width: 100%;
+  height: 550px;
+  color: rgb(173,188,204);
+  position: absolute;
+  top: 40px;
 }
-.velocity3 p:nth-child(1){ 
-  width:20%;
-  height: 27px;
-  /* border: 2px solid rgb(175, 38, 38); */
-  background-color:black;
-  padding-top: 18px;
-  color: white;
-  margin-left: 50px;
-  font-weight: bolder
-  
-}
-.velocity3 p:nth-child(2){ 
-  width:40%;
-  height: 27px;
-  /* border: 2px solid rgb(209, 19, 19); */
-  background-color:rgb(19, 16, 16);
-  padding-top: 18px;
-  color: white;
-  margin-left: 40px;
-  font-weight: bolder
-  
-}
-
-.velocity4{
-  width:30%;
-  height: 350px;
-  border: 2px solid rgb(17, 16, 16); 
-  margin-top: 250px;
-  margin-right: 150px;
-}
-
-.velocity5{
-  width:40%;
-  height: 650px;
-  border: 2px solid rgb(17, 16, 16); 
-}
+.velocitynitrotext1{
+font-size: 36px;
+font-weight: 700;
+position: absolute;
+left: 24px;
+top: 60px;
 
 
+ }
+
+ .velocitynitrotext2{
+  font-size: 22px;
+  font-weight: normal;
+  position: absolute;
+  left: 24px;
+  top: 110px;
+ }
+
+ .velocitynitroshop{
+  width: 50%;
+ }
+
+ .velocityshopnow{
+width: 8%;
+display: flex;
+  } */
 
 
 .divmanchester{
@@ -1270,16 +1257,307 @@ background-size: cover;
 
 .secondlastdiv{
   width:100%;
-  height: 250px;
-  border: 0.1px solid rgb(243, 237, 237);
+  height: 100px;
+  /* border: 2px soid black; */
+  /* border: 0.1px solid rgb(243, 237, 237); */
 }
 
-.secondlastdiv > h1{
-  width: 80%;
-  height: 50px;
-  border: 2px soid black;
-  padding-top: 80px;
-  margin-right: 50px;
+.secondlastdiv > h2{
+  width: 100%;
+  height: 30px;
+  /* border: 2px soid rgb(226, 12, 12); */
+  padding-top: 40px;
   font-size: 22px;
   
+}
+.secondlastdiv > p{
+  font-size: 11px;
+}
+
+.lastdiv{
+  width:100%;
+  height: 450px;
+  /* border: 0.1px solid rgb(243, 237, 237); */
+  background-image: url(./images/last.jpeg);
+  background-size: cover;
+
+}
+.divsfam{
+  width:85%;
+  height: 315px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  margin-top: 20px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.famimg{
+  width:16%;
+  height: 150px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  background-image: url(https://static.pxlecdn.com/photos/668638252/medium/03b08804a1968d3f672c.jpg);
+  background-size: cover;
+}
+
+.famimg1{
+  width:16%;
+  height: 150px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  background-image: url(https://static.pxlecdn.com/photos/667108817/medium/329b97d0f0a09aad9010.jpg);
+  background-size: cover;
+}
+
+.famimg2{
+  width:16%;
+  height: 150px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  background-image: url(https://static.pxlecdn.com/photos/663777526/medium/c11b47e161044c46b89f.jpg);
+  background-size: cover;
+}
+
+.famimg3{
+  width:16%;
+  height: 150px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  background-image: url(https://static.pxlecdn.com/photos/663078577/medium/1afd1a7c3abd30fe001b.jpg);
+  background-size: cover;
+}
+
+.famimg4{
+  width:16%;
+  height: 150px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  background-image: url(https://static.pxlecdn.com/photos/654777570/medium/d5fbd36450d9c940d84f.jpg);
+  background-size: cover;
+}
+
+.famimg5{
+  width:16%;
+  height: 150px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  background-image: url(https://static.pxlecdn.com/photos/654954775/medium/85e465ce130b1bd397f9.jpg);
+  background-size: cover;
+}
+
+.famimg6{
+  width:16%;
+  height: 150px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  background-image: url(https://static.pxlecdn.com/photos/669825078/medium/964c2d3cdee56ff21537.jpg);
+  background-size: cover;
+}
+
+.famimg7{
+  width:16%;
+  height: 150px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  background-image: url(https://static.pxlecdn.com/photos/665302409/medium/369b67fc1e184237c85f.jpg);
+  background-size: cover;
+}
+
+.famimg8{
+  width:16%;
+  height: 150px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  background-image: url(https://static.pxlecdn.com/photos/656504712/thumbnail/bde4417b453ab14094e3.jpg);
+  background-size: cover;
+}
+
+.famimg9{
+  width:16%;
+  height: 150px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  background-image: url(https://static.pxlecdn.com/photos/660932218/medium/48808eb8cce6c2d6f48f.jpg);
+  background-size: cover;
+}
+
+
+.famimg10{
+  width:16%;
+  height: 150px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  background-image: url(https://static.pxlecdn.com/photos/660290401/medium/619dbda1c7a77a928eaf.jpg);
+  background-size: cover;
+}
+
+.famimg11{
+  width:16%;
+  height: 150px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  background-image: url(https://static.pxlecdn.com/photos/660469655/medium/df98163262c6375e5e5d.jpg);
+  background-size: cover;
+}
+
+
+
+.divspotlight{
+  width:100%;
+  height: 450px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  margin-top: 20px;
+  
+}
+.divspotlight11{
+  width: 85%;
+  height: 30px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  font-size: 12px;
+  margin-left: 100px;
+  text-align: left;
+  padding-top: 50px;
+  
+}
+
+
+.divspotlight12{
+  width: 85%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.spotlightCard11{
+  width: 24%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+}
+.shoescard11{
+  width: 100%;
+  height: 280px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/399844/01/sv01/fnd/IND/fmt/png/PUMA-Court-Shatter-Low-Men's-Sneakers");
+  background-size: cover;
+}
+
+.redcard12{
+  width: 12%;
+  height: 12px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  font-size: 8px;
+  color: white;
+  background-color: #ac1e1e ;
+
+}
+.spotlightCard12{
+  width: 24%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+}
+.shoescard12{
+  width: 100%;
+  height: 280px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/387672/33/sv01/fnd/IND/fmt/png/Rider-Future-Vintage-Unisex-Sneakers");
+  background-size: cover;
+}
+.spotlightCard13{
+  width: 24%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+}
+.shoescard13{
+  width: 100%;
+  height: 280px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/106789/05/sv01/fnd/IND/fmt/png/PUMA-22-FH-Rubber-Unisex-Cricket-Shoes");
+  background-size: cover;
+}
+.spotlightCard14{
+  width: 24%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+}
+.shoescard14{
+  width: 100%;
+  height: 280px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/106713/03/sv01/fnd/IND/fmt/png/PUMA-x-one8-22-FH-Rubber-Unisex-Cricket-Shoes");
+  background-size: cover;
+}
+
+.cardprice11 {
+  width: 100%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  display: flex;
+}
+
+.cardprice12{
+  width: 100%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  display: flex;
+}
+.cardprice13{
+  width: 100%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  display: flex;
+}
+.cardprice14{
+  width: 100%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  display: flex;
+}
+
+.pricedetail11{
+  width: 70%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  font-size: 17px;
+}
+.price11{
+  width: 30%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  color: rgb(179, 23, 23);
+  font-size: 10px;  
+}
+
+.pricedetail12{
+  width: 70%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  font-size: 17px;
+}
+.price12{
+  width: 30%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  color: rgb(179, 23, 23);
+  font-size: 10px;  
+}
+
+.pricedetail13{
+  width: 70%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  font-size: 17px;
+}
+.price13{
+  width: 30%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  color: rgb(179, 23, 23);
+  font-size: 10px;  
+}
+
+
+.pricedetail14{
+  width: 70%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  font-size: 17px;
+}
+.price14{
+  width: 30%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  color: rgb(179, 23, 23);
+  font-size: 10px;  
 }

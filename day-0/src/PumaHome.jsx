@@ -4,6 +4,10 @@ import "./home.css";
 
 function PumaHome() {
     const router=useNavigate();
+
+function Gotologin(){
+    router("/page-login");
+}
     return (
         <div>
             <div class="miandiv">
@@ -40,8 +44,14 @@ function PumaHome() {
 
                     <i class="fa-regular fa-heart"></i>
                     <i class="fa-solid fa-cart-shopping"></i>
-                    <i class="fa-regular fa-user">
-                    
+                    <i class="fa-regular fa-user" onClick={Gotologin}>
+                        {/* <div className="content">
+                            <a>MY ACCOUND</a>
+                            <a>WISHLIST</a>
+                            <a>CHECK ORDER</a>
+                            <a>LOGIN/REGISTER</a>
+                        </div>
+                     */}
                     </i>
                    
                 </div>
@@ -243,25 +253,30 @@ function PumaHome() {
                     </div>
                 </div>
 
-                {/* <div className="velocity">
-                 <div  className="velocity1">  
-                    <div  className="velocity2">
-                    <h1>
-                    VELOCITY NITRO™ 3</h1>
-                    <p>THE WAY RUNNING SHOULD FEEL</p>
-                    <div  className="velocity3">
-                    <p>SHOP NOW</p>
-                    <p>SHOP NITRO COLLECTON</p> 
+             {/* <div className="velocitynitro">
+                    <div className="velocitynitrocolor"></div>
+                    <div className="velocitynitrotext1">
+                        <p>VELOCITY NITRO™ 3</p>
+                    </div>
+                    <div className="velocitynitrotext2">
+                        <p>THE WAY RUNNING SHOULD FEEL</p></div>
+                    <div className="velocitynitroshop">
+                        <div className="velocityshopnow">
+                            <p>SHOP NOW</p>
+                        </div>
+                        <div className="velocityshopnitro">
+                            <p>SHOP NITRO COLLECTION</p>
+                        </div>
+                    </div>
+                    <div className="running">
+                        <div className="runningshoes">
+                        <video autoplay="autoplay" muted loop>
+                                <source src="https://cdn.sanity.io/files/qa41whrn/prod/4a3026279df3bdb8eac79fcd2d37c6df1a4313e1.mp4" type="video/mp4"/>
+                            </video>
+                        </div>
                     </div>
                     </div>
-                   
-                    <div  className="velocity4">
-
-                    </div>
-                    <div  className="velocity5"></div>
-               </div>
-                  
-                </div> */}
+                 */}
 
 
                 <div className="divmanchester">
@@ -397,14 +412,123 @@ function PumaHome() {
 
 
                 <div className="secondlastdiv">
-                  <h1>RECOMMENDED FOR YOU</h1>
-
+                  <h2>AS WORN BY PUMA FAM</h2>
+                  <p>Click to shop & mention us on instagram @pumaindia to be featured</p>
                 </div>
 
-           <div className="lastdiv">
 
-           </div>
+                <div  className="divsfam">
+                    <div className="famimg">
+                    </div>
 
+                    <div className="famimg1">
+                    </div>
+
+                    <div className="famimg2">
+                    </div>
+
+                    <div className="famimg3">
+                    </div>
+
+                    <div className="famimg4">
+                     </div>
+
+                       <div className="famimg5">
+                    </div>
+
+                    <div className="famimg6">
+                    </div>
+
+                    <div className="famimg7">
+                    </div>
+
+                    <div className="famimg8">
+                    </div>
+
+                    <div className="famimg9">
+                    </div>
+
+                    <div className="famimg10">
+                    </div>
+
+                    <div className="famimg11">
+                    </div>
+                </div>
+
+                <div className="divspotlight">
+                    <div className="divspotlight11">
+                        <h2>RECOMMENDED FOR YOU</h2>
+                    </div>
+                    
+                    <div  className="divspotlight12">
+                    <div  className="spotlightCard11">
+                        <div className="shoescard11">
+                        </div>
+                        <div className="cardprice11">
+                            <div className="pricedetail11">
+                            <h6>PUMA Court Shatter Low Men's Sneakers</h6>
+                            </div>
+                            <div className="price11">
+                             <p>₹2,819</p>
+                             </div>
+                        </div>
+                    </div>
+
+                    <div className="spotlightCard12">
+                    <div className="shoescard12">
+                    <div className="redcard12" >
+                    <p>-40%</p>
+                    </div>
+                    </div>
+                    <div className="cardprice12">
+                    <div className="pricedetail12">
+                            <h6>Rider Future Vintage Unisex Sneakers</h6>
+                            </div>
+                            <div className="price12">
+                             <p>₹5,399</p>
+                             </div>
+                    </div>
+                    </div>
+
+                    <div className="spotlightCard13">
+                    <div className="shoescard13">
+                    <div className="redcard12" >
+                    <p>-50%</p>
+                    </div>
+                    </div>
+                    <div className="cardprice13">
+                    <div className="pricedetail13">
+                            <h6>Cricket Square Men's Shoes</h6>
+                            </div>
+                            <div className="price13">
+                             <p>₹2,499</p>
+                             </div>
+                    </div>
+                    </div>
+
+                    <div className="spotlightCard14">
+                    <div className="shoescard14">
+                    <div className="redcard12" >
+                    <p>-10%</p>
+                    </div>
+                    </div>
+                    <div className="cardprice14">
+                    <div className="pricedetail14">
+                            <h6>Hybrid NX Men's Running Shoes</h6>
+                            </div>
+                            <div className="price14">
+                             <p>₹3,369</p>
+                             </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+
+
+        
+                <div className="lastdiv">    
+            </div>
+              
 
     </div>
         </div>
