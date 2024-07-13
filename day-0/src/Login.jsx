@@ -9,16 +9,7 @@ function Login(){
 function GoRegister(){
     router("/register");
 }
-    return(
-        <div>
-            <div class="miandiv">
-               <div class="extra">
-              <p>FREE RETURN AND FREE EXCHANGE</p>
-                </div>
-
-                <div class="nav">
-                   <div class="nav1">
-                <img  src="https://assets.turbologo.com/blog/en/2019/11/19084917/puma-logo-cover-958x575.png"  />
+    return(.com/blog/en/2019/11/19084917/puma-logo-cover-958x575.png"  />
                 </div>
           
                 <div  class="nav2">
@@ -28,14 +19,7 @@ function GoRegister(){
                     <a>Kids</a>
                     <a>FentyxPuma</a>
                     <a>Motorsport</a>
-                    <a>Collabration</a>
-                    <a>Sports</a>
-                    <a>Outlet</a>
-                </div>
-                
-                
-                <div class="nav3">
-                    <i class="fa-solid fa-magnifying-glass" ></i>
+                 gnifying-glass" ></i>
                     <input class="input" placeholder="search" />
 
                 </div>
