@@ -1,7 +1,9 @@
+import  {  useNavigate } from "react-router-dom";
 import "./home.css";
 
 
 function PumaHome() {
+    const router=useNavigate();
     return (
         <div>
             <div class="miandiv">
@@ -38,7 +40,10 @@ function PumaHome() {
 
                     <i class="fa-regular fa-heart"></i>
                     <i class="fa-solid fa-cart-shopping"></i>
-                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-regular fa-user">
+                    
+                    </i>
+                   
                 </div>
                  
           
@@ -390,6 +395,15 @@ function PumaHome() {
                   </div>
                 </div>
 
+
+                <div className="secondlastdiv">
+                  <h1>RECOMMENDED FOR YOU</h1>
+
+                </div>
+
+           <div className="lastdiv">
+
+           </div>
 
 
     </div>
