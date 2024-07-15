@@ -1,11 +1,19 @@
-import "./register.css";
+import "./style/register.css";
 
 
 function Register(){
     return(
         <div>
         <div class="miandiv">
-           
+           <div class="extra">
+          <p>FREE RETURN AND FREE EXCHANGE</p>
+            </div>
+
+            <div class="nav">
+               <div class="nav1">
+            <img  src="https://assets.turbologo.com/blog/en/2019/11/19084917/puma-logo-cover-958x575.png"  />
+            </div>
+      
             <div  class="nav2">
                 <a>New</a>
                 <a>Wonem</a>
@@ -20,7 +28,20 @@ function Register(){
             
             
             <div class="nav3">
-        
+                <i class="fa-solid fa-magnifying-glass" ></i>
+                <input class="input" placeholder="search" />
+
+            </div>
+
+
+            <div class="nav4">
+
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-user">
+                
+                </i>
+               
             </div>
              
       
@@ -40,7 +61,22 @@ function Register(){
 
 
 
-ME *</h6>
+
+            <div className="signup">
+        <div class="registration">
+            <div class="registration1">
+                <p>Register</p>
+            </div>
+           
+            <div className="inputfirst">
+            <h6>FIRST NAME *</h6>
+                <div>
+                 <input type="email" id="typeemail" placeholder="FIRST NAME"/>
+             </div>
+          </div>
+
+          <div className="inputfirst">
+            <h6>LAST NAME *</h6>
                 <div>
                  <input type="email" id="typeemail" placeholder="LAST NAME"/>
              </div>
