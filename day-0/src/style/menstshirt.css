@@ -504,5 +504,26 @@ font-weight: 600;
 .pumatshirtonline{
   width: 100%;
   height: 50px;
+  font-size: 20px;
   border: 2px solid red;
+  text-align: start;
+  padding-top: 20px;
+}
+
+.pumatshirtonline1{
+  width: 100%;
+  height: 120px;
+  font-size: 13px;
+  text-align: start;
+  line-height: 19px;
+  border: 2px solid red;
+}
+
+.pumatshirtonline2{
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  border: 2px solid red;
+  text-align: start;
+  padding-top: 20px;
 }

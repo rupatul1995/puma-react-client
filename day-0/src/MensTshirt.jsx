@@ -245,7 +245,19 @@ console.log(productimg ,"productimg");
        <h5>Buy PUMA T-shirts For Men Online</h5>
     </div>
 
+    <div className="pumatshirtonline1" >
+        <p>Step up your game and experience the perfect blend of performance, comfort, and style with our PUMA 
+            sports t-shirts for men. Embrace the confidence that comes with wearing high-quality activewear and seize 
+            the day with unbeatable performance and impeccable style. We understand that freedom of movement is crucial for
+             any athlete or active individual. That's why our men's t-shirts are designed with a focus on flexibility and range
+              of motion. The fabrics used are lightweight and stretchable, enabling unrestricted movement so you can perform at
+               your best. Whether 
+            you're stretching, running, or engaging in dynamic movements, our t-shirts provide the flexibility you need to excel.</p>
+    </div>
 
+ <div className="pumatshirtonline2">
+       <h5>Types Of Trendy Sports Tshirt Available At PUMA</h5>
+    </div>
 
     </div>
 
