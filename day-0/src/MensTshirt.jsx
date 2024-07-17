@@ -259,9 +259,26 @@ console.log(productimg ,"productimg");
        <h5>Types Of Trendy Sports Tshirt Available At PUMA</h5>
     </div>
 
+    
+ <div className="pumatshirtonline3">
+       <h5>Our selection of stylish sports t-shirts for men covers all versions of male sportswear including</h5>
     </div>
 
-            
+<div className="pumatshirtonline4">
+<ul>
+    <li>Running Sports t-shirts</li>
+    <li>Rapid-dry sports t-shirts</li>
+    <li>Graphic sports tees</li>
+    <li>Graphic sports tees</li>
+    <li>Short sleeves men’s slim-fit t-shirts</li>
+    <li>Long sleeves men’s t-shirt</li>
+    
+</ul>
+</div>
+
+
+
+    </div>
   </div>
          
 
