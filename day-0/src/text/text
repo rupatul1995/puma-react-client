@@ -1,29 +1,18 @@
-alt="SEASONS Men's Short Sleeve Trail Running T-shirt, Turquoise Surf, extralarge-IND"
+How To Style Men’s Sports T-shirts?
+T-shirts are the most versatile all-rounds due to their ability to blend in all looks, appearances, and ensembles. Here are a few cool ways to style our branded t-shirts for men:
 
-
-title="SEASONS Men's Short Sleeve Trail Running T-shirt, Turquoise Surf, extralarge-IND"
-
-
-
-
-
-<div  style={{
-    display:"flex",
-    flexWrap:"wrap",
-    justifyContent:"space-around",
-    
-    }}>
-
-
-    {productimg.map((product)=>(
-        <div style={{width:"23%", height:"700px" ,
-             border:"2px solid black" , marginBottom:"15px", borderRadius:"20px"
-    }}>
-            <img  style={{width:"90%", height:"50%"}}  src ={product.youmayimg}/>
-        <p>title:{product.title}</p>
-        <p>description:{product.description}</p>
-        <p> price:{product.price}</p>
-       
-        </div>
-    ))}
-</div>
+Blue denim and a pair of sneakers go well with all shapes and colours of trendy or fancy t-shirts for men. Just ensure that the colour of the sneakers compliments the colour of the t-shirt.
+For a casual and unstated look, a pair of classic trousers, pair of slip-ons with contrast or a matching t-shirt for men can never go wrong. 
+A slim-fit t-shirt under an unbuttoned shirt with a pair of chinos or jeans can easily make heads turn. The best time to try this look is in-between the seasons.
+A slim-fit t-shirt sticking out under a complementing sweatshirt is not only pleasing to the eyes but also leaves an unwavering impression.
+For a cool winter look, a regular fit sports t-shirt for men can be donned under a blazer with complementing shade of denim and slip-on shoes.
+Features
+EVERFRESH Technology - A quattro-acting eco-friendly technology that maintains hygiene and prevents the growth of any kind of microbes and deodorizes the fabric.
+FORMKNIT SEAMLESS Fit: A fine engineered knit framework to ensure perfect performance fit.
+dryCELL: PUMA’s signature sportswear technology that wicks away sweat keeping you comfortable and dry throughout the day.
+Finest quality cotton extracted from sustainable cotton farming practices. Every purchase supports this eco-friendly practice and encourages us to keep supporting the environment.
+Guide On Picking The Right Kind Of Sports Tshirt For Men
+Before scouting for trending t-shirts for men, measure your chest and length to find the right size from our size chart.
+If you are purchasing a sports tee for athletic purposes, better look for a slim-fit t-shirt that is neither tight nor interferes with your momentum as you move in speed.
+If you have a rectangular frame, go for a slim fit but if your body architecture is oval or triangular in shape it's better to go for regular fit t-shirts.
+For casual and travel purposes, you may choose classic/regular fit t-shirts.

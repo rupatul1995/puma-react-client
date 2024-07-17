@@ -276,10 +276,38 @@ console.log(productimg ,"productimg");
 </ul>
 </div>
 
+<div className="pumatshirtonline5">
+       <h5>How To Style Men’s Sports T-shirts?</h5>
+    </div>
+
+    <div className="pumatshirtonline6">
+<ul>
+    <li>Blue denim and a pair of sneakers go well with all shapes and colours of trendy or fancy t-shirts for men. 
+        Just ensure that the colour of the sneakers compliments the colour of the t-shirt.</li>
+    <li>For a casual and unstated look, a pair of classic trousers,
+         pair of slip-ons with contrast or a matching t-shirt for men can never go wrong. </li>
+    <li>A slim-fit t-shirt under an unbuttoned shirt with a pair of chinos or jeans can easily make heads turn.
+         The best time to try this look is in-between the seasons.</li>
+    <li>For a cool winter look, a regular fit sports t-shirt for men can be donned under a blazer with complementing shade of
+         denim and slip-on shoes.</li>
+    <li>EVERFRESH Technology - A quattro-acting eco-friendly technology that maintains hygiene and 
+        prevents the growth of any kind of microbes and deodorizes the fabric.</li>
+    <li>FORMKNIT SEAMLESS Fit: A fine engineered knit framework to ensure perfect performance fit.</li>
+    
+</ul>
+</div>
+
+
+
+
 
 
     </div>
+    
+<div className="lastdiv">    
+            </div>
   </div>
+
          
 
     );

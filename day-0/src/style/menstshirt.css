@@ -539,10 +539,39 @@ font-weight: 600;
 }
 .pumatshirtonline4{
   width: 100%;
-  height: 150px;
+  height: 120px;
+  font-size: 13px;
+  /* border: 2px solid red; */
+  text-align: start;
+  padding-left: 40px;
+  line-height: 19px;
+}
+
+.pumatshirtonline5{
+  width: 100%;
+  height: 30px;
   font-size: 15px;
   /* border: 2px solid red; */
   text-align: start;
-  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.pumatshirtonline6{
+  width: 100%;
+  height: 120px;
+  font-size: 13px;
+  /* border: 2px solid red; */
+  text-align: start;
+  padding-left: 40px;
   line-height: 19px;
+}
+
+.lastdiv{
+  width:100%;
+  height: 450px;
+  border: 0.1px solid rgb(243, 237, 237);
+  background-image: url("../images/last.jpeg");
+  background-size: cover;
+margin-top: 10px;
+  margin-bottom: 55px;
 }
