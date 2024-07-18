@@ -4,6 +4,7 @@ import PumaHome from "./PumaHome";
 import Login from "./Login";
 import Register from "./Register";
 import MensTshirt from "./MensTshirt";
+import SingleProduct from "./SingleProduct";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/page-login" element={<Login/>}/>
         <Route path="/register" element={<Register/>}/>
         <Route path="/menstshirt" element={<MensTshirt/>}/>
+        <Route path="/singleproduct" element={<SingleProduct/>}/>
       </Routes>
     </div>
   );
