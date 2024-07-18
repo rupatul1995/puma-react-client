@@ -119,3 +119,802 @@ width: 12%;
   font-size: 20px;
   margin-top: 10px;
 }
+
+
+.pumasingleproudcttext{
+  width: 90%;
+  height: 50px;
+  /* border: 2px solid red; */
+  display: flex;
+   text-align: start;
+  padding-top: 20px; 
+  margin: auto;
+}
+
+.pumasingleproudcttext >p:nth-child(1){
+  width: 5%;
+  height: 30px;
+  /* border: 2px solid red; */
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 10px;
+
+  margin-left: 20px;
+
+}
+
+.pumasingleproudcttext >p:nth-child(2){
+  width: 12%;
+  height: 30px;
+  /* border: 2px solid red; */
+  font-size: 12px;
+  font-weight: 700;
+}
+
+
+.pumasingleproudcttext >p:nth-child(3){
+  width: 15%;
+  height: 30px;
+  /* border: 2px solid red; */
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.pumasingleproudcttext >p:nth-child(4){
+  width: 20%;
+  height: 30px;
+  /* border: 2px solid red; */
+  font-size: 13px;
+  
+}
+
+
+.pumasingleproudctmaindiv{
+  width: 90%;
+  height: 1200px;
+  /* border: 2px solid red; */
+  margin: auto;
+  display: flex;
+
+}
+
+.pumasingleproudctimg{
+  width: 65%;
+  height: 1200px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.pumasingleproudctimg1{
+   width: 48%;
+  height: 250px; 
+  /* border: 2px solid rgb(192, 116, 44); */
+}
+
+
+/* .pumasingleproudctimg1 >img{
+  width: 40%;
+  height: 250px;
+  border: 2px solid rgb(61, 192, 44);
+} */
+
+.pumasingleproudctprice{
+  width: 35%;
+  height: 1200px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  margin-left: 20px;
+  text-align: start;
+}
+
+.pumasingleproudctprice1{
+  width: 90%;
+  height: 30px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+
+.pumasingleproudctprice2{
+  width: 60%;
+  height: 20px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 17px;
+  padding-top: 10px;
+  font-weight: 700;
+  color: brown;
+}
+
+.pumasingleproudctprice3{
+  width: 60%;
+  height: 20px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 12px;
+  padding-top: 10px;
+  font-weight: 700;
+ 
+}
+
+.pumasingleproudctprice4{
+  width: 60%;
+  height: 40px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 12px;
+  padding-top: 10px;
+
+}
+
+.pumasingleproudctprice5{
+  width: 60%;
+  height: 20px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 17px;
+  padding-top: 20px;
+  font-weight: 700;
+
+}
+
+.pumasingleproudctprice6{
+  width: 60%;
+  height: 20px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 12px;
+  padding-top: 10px;
+ 
+}
+.pumasingleproudctprice7{
+  width: 90%;
+  height:80px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  border-bottom: 1px solid rgb(192, 190, 190);
+ 
+}
+
+.pumasingleproudctprice8{
+  width: 52%;
+  height: 55px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.pumasingleproudctprice8 >p:nth-child(1){
+  width: 31%;
+  height: 50px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/680000/01/mod01/fnd/IND/fmt/png/LOVE-WINS-Men's-T-shirt");
+ background-size: cover;
+
+  }
+  
+.pumasingleproudctprice8 >p:nth-child(2){
+  width: 31%;
+  height: 50px;
+  /* border: 2px solid rgb(46, 44, 192); */
+ background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_150,h_100/global/680000/36/mod01/fnd/IND/fmt/png/LOVE-WINS-Men's-T-shirt");
+ background-size: cover;
+
+  }
+  
+.pumasingleproudctprice8 >p:nth-child(3){
+  width: 31%;
+  height: 50px;
+  /* border: 2px solid rgb(46, 44, 192); */
+ background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_100,h_100/global/680000/02/mod01/fnd/IND/fmt/png/LOVE-WINS-Men's-T-shirt");
+ background-size: cover;
+
+  }
+
+  .pumasingleproudctprice9{
+    width: 60%;
+    height: 20px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    font-size: 17px;
+    padding-top: 20px;
+    font-weight: 700;
+  
+  }
+
+  .pumasingleproudctprice10{
+    width: 60%;
+    height: 20px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    font-size: 10px;
+    padding-top: 10px;
+   
+  }
+
+  .pumasingleproudctprice11{
+    width: 10%;
+    height: 28px;
+    border: 2px solid rgb(145, 145, 145);
+    font-size: 12px;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 20px;
+   
+  }
+
+  .pumasingleproudctprice12{
+    width: 60%;
+    height: 20px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    font-size: 10px;
+    padding-top: 20px;
+    font-family: 600;
+   
+  }
+  
+  .pumasingleproudctprice13{
+    width: 60%;
+    height: 20px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    font-size: 12px;
+    padding-top: 10px;
+    font-weight: 700;
+  
+  }
+
+  .pumasingleproudctprice14{
+    width: 90%;
+    height: 50px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pumasingleproudctaddtocard{
+    width: 20%;
+    height: 40px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    background-color: #dfe0e1;
+    display: flex;
+    color: rgb(145, 145, 145);
+  }
+
+  .pumasingleproudctaddtocard > p{  
+  padding-top: 10px;
+  padding-left: 10px;
+  }
+
+  .pumasingleproudctaddtocard > i{  
+    padding-top: 10px;
+    }
+  .pumasingleproudctaddtocard1{
+    width: 75%;
+    height: 40px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+  }
+
+  .pumasingleproudctaddtocard1 >h5{
+    padding-top: 13px;
+  }
+
+  .pumasingleproudctcardtowish{
+    width: 68%;
+    height: 40px;
+    border: 1px solid rgb(78, 78, 78); 
+    text-align: center;
+    margin-left: 90px;
+    display: flex;
+    margin-top: 5px;
+    font-weight: 600;
+
+
+  }
+
+  .pumasingleproudctcardtowish > i{
+    width: 20%;
+    height: 20px;
+    /* border: 2px solid rgb(46, 44, 192);  */
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+  .pumasingleproudctcardtowish > h5{
+    width: 50%;
+    height: 20px;
+    margin-top: 10px;
+    /* border: 2px solid rgb(46, 44, 192);  */
+  }
+
+  .pumasingleproudctprice15{
+    width: 90%;
+    height: 50px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    border-bottom: 1px solid rgb(163, 160, 160);
+   font-size: 12px;
+   font-weight: 600;
+   color: #646262;
+   padding-top: 20px;
+  }
+
+
+  .pumasingleproudctprice16{
+    width: 90%;
+    height: 40px;
+    /* border: 2px solid rgb(46, 44, 192); */
+   font-size: 12px;
+   font-weight: 600;
+   color: #646262;
+   padding-top: 20px;
+  }
+
+
+  .pumasingleproudctprice17{
+    width: 60%;
+    height: 20px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    font-size: 10px;
+    padding-top: 10px;
+    font-weight: 700;
+  
+  }
+
+
+  .pumasingleproudctprice18{
+    width: 90%;
+    height: 55px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    border-bottom: 1px solid rgb(219, 215, 215);
+display: flex;
+justify-content: space-between;
+  }
+
+  .pumasingleproudctpincode{
+    width: 70%;
+    height: 40px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    text-align: center;
+    
+  }
+
+  .pumasingleproudctpincode >input{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid rgb(156, 156, 156);
+  }
+
+  .pumasingleproudctpincode1{
+    width: 25%;
+    height: 40px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    background-color: #dfe0e1;
+    color: white;
+    background-color: black;
+    text-align: center;
+
+  }
+
+  
+  .pumasingleproudctpincode1 >h5{
+   padding-top: 10px;
+
+  }
+
+  .pumasingleproudctprice19{
+    width: 60%;
+    height: 20px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    font-size: 13px;
+    padding-top: 10px;
+    font-weight: 700;
+  
+  }
+
+  .pumasingleproudctprice20{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    font-size: 13px;
+    padding-top: 10px;
+line-height: 22px;    
+  
+  }
+
+  .pumasingleproudctprice21{
+    width: 80%;
+    height: 50px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    font-size: 12px;
+    padding-top: 10px;
+line-height: 22px;  
+padding-left: 20px;  
+  
+  }
+  
+
+  .pumasingleproudctprice22{
+    width: 60%;
+    height: 20px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    font-size: 10px;
+    padding-top: 10px;
+    font-weight: 700;
+  
+  }
+
+  .pumasingleproudctprice23{
+    width: 60%;
+    height: 40px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    font-size: 13px;
+    padding-top: 20px;
+    font-weight: 700;
+  
+  }
+
+  .pumasingleproudctprice24{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    font-size: 13px;
+    padding-top: 10px;
+line-height: 22px;    
+  
+  }
+
+  .pumasingleproudctprice25{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid rgb(46, 44, 192); */
+    font-size: 13px;
+    padding-top: 10px;
+line-height: 22px;    
+  
+  }
+
+.singleproductstory{
+  width: 90%;
+  height: 750px;
+  margin: auto;
+  /* border: 2px solid rgb(46, 44, 192);  */
+  background-color: #f3f3f3;
+}
+
+.singleproductstory1{
+  width: 20%;
+  height: 30px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 13px;
+  padding-top: 20px;
+  font-weight: 700;
+
+}
+
+.singleproductstory2{
+  width: 100%;
+  height: 50px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 13px;
+  padding-top: 10px;
+line-height: 22px;   
+text-align: justify; 
+
+}
+
+.singleproductstory3{
+  width: 100%;
+  height: 200px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 13px;
+  padding-top: 10px;
+  margin-top: 20px;
+   line-height: 22px;   
+   display: flex;
+}
+
+.singleproductstory4{
+  width: 20%;
+  height: 200px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 13px;
+   line-height: 22px; 
+   margin-left: 20px;  
+   text-align: justify;
+}
+
+.singleproductstory4 >h5 {
+  font-size: 15px;
+  text-align: justify;
+}
+.singleproductstory4 >ul{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.singleproductstory5{
+  width: 20%;
+  height: 200px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 13px;
+  line-height: 22px;   
+  margin-left: 450px;  
+  text-align: justify; 
+
+
+}
+
+.singleproductstory5 >h5 {
+  font-size: 15px;
+  text-align: justify;
+}
+.singleproductstory5 >ul{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+
+.singleproductstory6{
+  width: 100%;
+  height: 250px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 13px;
+  padding-top: 10px;
+  margin-top: 20px;
+   line-height: 22px;   
+   display: flex;
+}
+
+.singleproductstory7{
+  width: 20%;
+  height: 250px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 13px;
+   line-height: 22px; 
+   margin-left: 20px;  
+   text-align: justify;
+}
+
+.singleproductstory7 >h5 {
+  font-size: 15px;
+  text-align: justify;
+}
+.singleproductstory7 >ul{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.singleproductstory8{
+  width: 20%;
+  height: 250px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 13px;
+  line-height: 22px;   
+  margin-left: 450px;  
+  text-align: justify; 
+
+
+}
+
+.singleproductstory8 >h5 {
+  font-size: 15px;
+  text-align: justify;
+}
+.singleproductstory8 >ul{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.singleproductstory9{
+  width: 20%;
+  height: 20px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 18px;
+  padding-top: 20px;
+  font-weight: 700;
+
+}
+
+.singleproductstory10{
+  width: 10%;
+  height: 30px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 12px;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.singleproductstory11{
+  width: 90%;
+  height: 30px;
+  /* border: 2px solid rgb(46, 44, 192); */
+  font-size: 13px;
+  padding-top: 20px;
+  margin: auto;
+  font-weight: 600;
+  text-align: start;
+
+}
+
+
+
+
+
+.divspotlight{
+  width:100%;
+  height: 450px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  margin-top: 20px;
+  
+}
+.divspotlight11{
+  width: 85%;
+  height: 30px;
+  /* border: 2px solid rgb(17, 16, 16);  */
+  font-size: 12px;
+  margin-left: 100px;
+  text-align: left;
+  padding-top: 50px;
+  
+}
+
+
+.divspotlight211{
+  width: 85%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.spotlightCard111{
+  width: 24%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+}
+.shoescard111{
+  width: 100%;
+  height: 280px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/526187/01/mod01/fnd/IND/fmt/png/Men's-Graphic-Run-Emblem-Training-T-shirt");
+  background-size: cover;
+}
+
+.redcard211{
+  width: 12%;
+  height: 12px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  font-size: 8px;
+  color: white;
+  background-color: #ac1e1e ;
+
+}
+.spotlightCard211{
+  width: 24%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+}
+.shoescard211{
+  width: 100%;
+  height: 280px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/526177/01/mod01/fnd/IND/fmt/png/TRAIN-FAVORITE-Men's-Training-Tracksuit");
+  background-size: cover;
+}
+.spotlightCard311{
+  width: 24%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+}
+.shoescard311{
+  width: 100%;
+  height: 280px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/678938/01/mod01/fnd/IND/fmt/png/PUMA-POWER-Men's-T-shirt");
+  background-size: cover;
+}
+.spotlightCard411{
+  width: 24%;
+  height: 350px;
+  /* border: 2px solid rgb(17, 16, 16); */
+}
+.shoescard411{
+  width: 100%;
+  height: 280px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/624726/22/mod01/fnd/IND/fmt/png/PUMA-x-Palm-Tree-Crew-Men's-Graphic-T-shirt");
+  background-size: cover;
+}
+
+.cardprice111 {
+  width: 100%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  display: flex;
+}
+
+.cardprice211{
+  width: 100%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  display: flex;
+}
+.cardprice311{
+  width: 100%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  display: flex;
+}
+.cardprice411{
+  width: 100%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  display: flex;
+}
+
+.pricedetail111{
+  width: 70%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  font-size: 17px;
+}
+.price111{
+  width: 30%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  color: rgb(179, 23, 23);
+  font-size: 10px;  
+}
+
+.pricedetail211{
+  width: 70%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  font-size: 17px;
+}
+.price211{
+  width: 30%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  color: rgb(179, 23, 23);
+  font-size: 10px;  
+}
+
+.pricedetail311{
+  width: 70%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  font-size: 17px;
+}
+.price311{
+  width: 30%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  color: rgb(179, 23, 23);
+  font-size: 10px;  
+}
+
+
+.pricedetail411{
+  width: 70%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  font-size: 17px;
+}
+.price411{
+  width: 30%;
+  height: 80px;
+  /* border: 2px solid rgb(17, 16, 16); */
+  color: rgb(179, 23, 23);
+  font-size: 10px;  
+}
+
+.lastdiv{
+  width:100%;
+  height: 450px;
+  border: 0.1px solid rgb(243, 237, 237);
+  background-image: url("../images/last.jpeg");
+  background-size: cover;
+
+  margin-bottom: 55px;
+}
