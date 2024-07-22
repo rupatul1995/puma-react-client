@@ -72,6 +72,18 @@ function OrderProduct(){
                <p><u>LOGOUT</u></p>  
      </div>
 
+     <div className="orderproduct4">
+        <div  className="orderproduct5">
+            <div  className="profile">
+            <p>Profile</p>
+            <h2><u>EDIT PROFILE</u></h2>
+            </div>
+            <div className="profile"></div>
+        </div>
+
+        <div className="orderproduct6"></div>
+     </div>
+
 
 
 

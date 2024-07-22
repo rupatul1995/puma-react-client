@@ -137,7 +137,7 @@ width: 12%;
  .orderproduct{
     width: 85%;
     height: 70px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-top: 25px;
     display:  flex;
     margin: auto;
@@ -148,7 +148,7 @@ width: 12%;
     .orderproduct >p:nth-child(1){
         width: 8%;
         height: 20px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-left: 80px;
         margin-top: 40px;
         font-weight: 700;
@@ -160,7 +160,7 @@ width: 12%;
     .orderproduct >p:nth-child(2){
         width: 15%;
         height: 20px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         /* margin-left: 80px; */
         margin-top: 40px;
         font-weight: 700;
@@ -170,7 +170,7 @@ width: 12%;
     .orderproduct1{
       width: 85%;
       height: 30px;
-      border: 2px solid black;
+      /* border: 2px solid black; */
       margin-top: 20px;
       display:  flex;
       margin: auto;
@@ -182,7 +182,7 @@ width: 12%;
       .orderproduct1 >p:nth-child(1){
         width: 10%;
         height: 20px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         /* margin-left: 80px; */
         margin-top: 5px;
         font-weight: 800;
@@ -194,7 +194,7 @@ width: 12%;
  .orderproduct2{
   width: 85%;
   height: 60px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin: auto;
  
   }
@@ -202,7 +202,7 @@ width: 12%;
   .orderproduct2 >p:nth-child(1){
       width: 15%;
       height: 40px;
-      border: 2px solid black;
+      /* border: 2px solid black; */
       margin-left: 80px;
       font-weight: 700;
       font-size: 29px;
@@ -213,7 +213,7 @@ width: 12%;
   .orderproduct3{
     width: 85%;
     height: 20px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-top: 20px;
     display:  flex;
     margin: auto;
@@ -225,10 +225,53 @@ width: 12%;
     .orderproduct3 >p:nth-child(1){
       width: 10%;
       height: 19px;
-      border: 2px solid black;
+      /* border: 2px solid black; */
       /* margin-left: 80px; */
       /* margin-top: 5px; */
       font-size: 12px;
       margin-left: 100px;
     
+  }
+
+
+
+  .orderproduct4{
+    width: 85%;
+    height: 170px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+  }
+  
+  .orderproduct5{
+    width: 40%;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+  }
+
+  .profile{
+    width: 40%;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+  }
+
+  
+  .profile >P:nth-child(1){
+    width: 40%;
+    height: 150px;
+    border: 2px solid black;
+  }
+
+  
+  .profile > h2{
+    width: 40%;
+    height: 150px;
+    border: 2px solid black;
+  }
+  .orderproduct6{
+    width: 25%;
+    height: 150px;
+    border: 2px solid black;
   }
