@@ -323,7 +323,7 @@ text-align: justify;
 
   .orderproduct6{
     width: 30%;
-    height: 150px;
+    height: 80px;
     /* border: 2px solid black; */
     margin-left: 90px;
   }
@@ -334,13 +334,21 @@ text-align: justify;
     /* border: 2px solid black; */
     border-bottom: 1px solid rgb(179, 177, 177);
     font-size: 19px;
+    display: flex;
+  }
+  .bookaddress >i{
+    width: 10%;
+    height: 20px;
+    /* border: 2px solid black; */
+    font-size: 13px;
+    margin-top: 5px;
+
   }
   .bookaddress >h6{
     width: 29%;
     height: 20px;
     /* border: 2px solid black; */
-    margin-top: 15px;  
-    padding-top: 10px; 
+    margin-top: 5px;
   }
   
   .bookaddress1{
@@ -351,7 +359,7 @@ text-align: justify;
     padding-top: 9px;
     background-color: black;
     color: white;
-    margin-top: 10px;
+    margin-left: 9px;
   }
 
 
@@ -425,21 +433,22 @@ text-align: justify;
 font-size: 14px;
 text-align: justify;
 display: flex;
+margin-top: 10px;
 
  }
 
- .profilesecond1 >p:nth-child(1){
-  width: 50%;
+ .profilesecond1 >b{
+  width: 20%;
   height: 20px;
-  border: 2px solid black;
-  margin-top: 10px;
+  /* border: 2px solid b  lack; */
 
  }
- .profilesecond1 >p:nth-child(2){
+ .profilesecond1 >input{
   width: 50%;
   height: 20px;
-  border: 2px solid black;
-  margin-top: 10px;
+  border: none;
+  /* border: 2px solid black; */
+
 
  }
 
@@ -458,22 +467,136 @@ display: flex;
     /* border: 2px solid black; */
     border-bottom: 1px solid rgb(179, 177, 177);
     font-size: 19px;
+    display: flex;
+  }
+  .bookaddress2 >i{
+    width: 5%;
+    height: 20px;
+    /* border: 2px solid black; */
+    font-size: 13px;
+    margin-top: 5px;
+
   }
   .bookaddress2 >h6{
     width: 29%;
     height: 20px;
     /* border: 2px solid black; */
-    margin-top: 15px;  
-    padding-top: 10px; 
+    margin-top: 5px;
   }
+  
   
   .bookaddress3{
     width: 28%;
     height:20px;
-    font-size: 13px;
+    font-size: 12px;
     /* border: 2px solid black; */
     padding-top: 9px;
     background-color: black;
     color: white;
     margin-top: 10px;
   }
+
+
+
+
+
+
+
+
+
+
+  .orderproduct10{
+    width: 85%;
+    height: 170px;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+  }
+  
+  .orderproduct11{
+    width: 50%;
+    height: 170px;
+    /* border: 2px solid black; */
+   
+  }
+
+  .profile6{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid black; */
+    display: flex;
+    border-bottom: 1px solid rgb(197, 195, 195);
+  
+  }
+  .profile7{
+    width: 50%;
+    height: 20px;
+    /* border: 2px solid rgb(209, 6, 6); */
+   display: flex;
+   padding-top: 10px;
+  }
+
+  .profile7 >i {
+    width: 10%;
+    height: 20px;
+    /* border: 2px solid rgb(209, 6, 6); */
+   
+  }
+
+  .profile7 >h4 {
+    width: 20%;
+    height: 20px;
+    /* border: 2px solid rgb(209, 6, 6); */
+   
+  }
+  .profile8{
+    width: 50%;
+    height: 50px;
+    /* border: 2px solid rgb(209, 6, 6); */
+    
+   
+  }
+
+  .profile8 > h6{
+    width: 40%;
+    height: 20px;
+    /* border: 2px solid rgb(209, 6, 6); */
+   margin-left: 160px;
+   padding-top: 15px;
+  }
+
+ .profilesecond2{
+  width: 70%;
+  height: 90px;
+  /* border: 2px solid black; */
+font-size: 14px;
+text-align: justify;
+display: flex;
+margin-top: 10px;
+
+ }
+
+ .profilesecond2 >b{
+  width: 40%;
+  height: 20px;
+  /* border: 2px solid b  lack; */
+
+ }
+ .profilesecond2 >input{
+  width: 50%;
+  height: 20px;
+  border: none;
+  /* border: 2px solid black; */
+
+
+ }
+
+ .myorderproductlastdiv{
+  width:100%;
+  height: 450px;
+  border: 0.1px solid rgb(243, 237, 237);
+  background-image: url("../images/last.jpeg");
+  background-size: cover;
+
+  margin-bottom: 55px;
+}

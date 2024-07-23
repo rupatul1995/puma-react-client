@@ -1,6 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import "./style/orderproduct.css";
 
 function OrderProduct(){
+    const router =useNavigate();
+    function GotoMyorder(){
+        router=("/my-order")
+    }
     return(
 <div class="miandiv">
     <div class="extra">
@@ -93,6 +98,7 @@ function OrderProduct(){
 
        <div className="orderproduct6">
         <div className="bookaddress">
+        <i class="fa-solid fa-phone-volume"></i>
             <h6>Address Book</h6>
         </div>
         <div  className="bookaddress1">
@@ -119,22 +125,52 @@ function OrderProduct(){
 
         <div className="profilesecond1">
             <b>Password:</b> 
-            <input /> 
+            <input  type="password"/> 
           
         </div>
        </div>
 
        <div className="orderproduct9">
         <div className="bookaddress2">
-            <h6>Address Book</h6>
+        <i class="fa-solid fa-user"></i>
+            <h6>Order History</h6>
         </div>
         <div  className="bookaddress3">
-            <p>ADD NEW</p>
+            <p onClick={GotoMyorder}>MY ORDERS</p>
         </div>
        </div>
        </div>
 
 
+
+       <div className="orderproduct10">
+     <div className="orderproduct11">
+        <div className="profile6">
+            <div className="profile7">
+            <i class="fa-solid fa-phone-volume"></i>
+            <h4>Profile</h4>
+            </div>
+
+            <div className="profile8">
+                <h6><u>CHANGE PASSWORD</u></h6>
+            </div>
+        </div>
+
+        <div className="profilesecond2">
+            <b>PHONE NUMBER:</b> 
+            <input  type="password"/> 
+          
+        </div>
+       </div>
+    
+       </div>
+
+
+
+
+       <div className="myorderlastdiv">    
+            </div>
+              
      </div>
 
     );

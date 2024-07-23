@@ -1,0 +1,777 @@
+*{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.miandiv{
+   width: 100%;
+   height: 15000px;
+    /* border: 2px solid black; */
+
+}
+.extra{
+    /* border: 2px solid red; */
+    text-align: center;
+    height: 40px;
+    background-color: #8a7350;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+   font-weight: 600;
+    font-style: normal;
+     font-size: 12px;
+   display: flex;
+   align-items: center;
+   font-family: "Roboto Condensed", sans-serif;
+}
+
+.nav{
+width: 100%;
+height: 60px;
+/* border: 2px solid red; */
+display: flex;
+background-color: black;
+color: white;
+font-family: "Roboto Condensed", sans-serif;
+}
+
+.nav1{
+width: 11%;
+  /* border: 2px solid rgb(19, 2, 2); */
+display: flex;
+font-family: "Roboto Condensed", sans-serif;
+}
+.nav1 >img{
+    width: 100px;
+  height:50px;
+}
+
+
+.nav2 {
+    width: 60%;
+    border: 2px solid rgb(14, 13, 13);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-right: 50px;
+    font-family: "Roboto Condensed", sans-serif;
+    
+    }
+.nav2 > a:nth-child(1){
+  width: 5%;
+  /* border: 2px solid white; */
+  margin-right: 25px;
+}
+.nav2 > a:nth-child(2){
+  width: 9%;
+  /* border: 2px solid white; */
+  margin-right: 25px;
+}
+.nav2 > a:nth-child(3){
+  width: 15%;
+  /* border: 2px solid white; */
+  margin-right: 30px;
+}
+.nav2 > a:nth-child(4){
+  width: 15%;
+  /* border: 2px solid white; */
+  margin-right: 20px;
+}
+.nav2 > a:nth-child(8){
+  width: 15%;
+  /* border: 2px solid white; */
+  margin-right: 30px;
+}
+.nav2 > a:nth-child(9){
+  width: 15%;
+  /* border: 2px solid white; */
+  margin-right: 30px;
+}
+
+
+.nav3{
+width: 12%;
+height: 40px;
+background-color: black;
+  border: 2px solid rgb(82, 81, 81);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 30px;
+  margin-top: 10px;
+
+}
+
+.nav4{
+width: 12%;
+  border: 2px solid rgb(20, 19, 19);
+  display: flex ;
+  align-items: center;
+  justify-content:space-between;
+  padding-left: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.lastbody{
+    width: 100%;
+    height: 70px;
+    color: white;
+    /* border: 2px solid black; */
+    background-color:#a42d29;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    
+    }
+
+
+    
+ .myorder{
+    width: 85%;
+    height: 70px;
+    /* border: 2px solid black; */
+    margin-top: 25px;
+    display:  flex;
+    margin: auto;
+   
+    
+    }
+
+    .myorder >p:nth-child(1){
+        width: 12%;
+        height: 20px;
+        /* border: 2px solid black; */
+        margin-top: 40px;
+        font-weight: 800;
+        font-size: 15px;
+
+
+    }
+
+    .myorder >p:nth-child(2){
+        width: 15%;
+        height: 20px;
+        /* border: 2px solid black; */
+        /* margin-left: 80px; */
+        margin-top: 40px;
+        font-size: 12px;
+       
+      
+    }
+
+    .myorder1{
+      width: 85%;
+      height: 40px;
+      /* border: 2px solid black; */
+      margin-top: 20px;
+      display:  flex;
+      margin: auto;
+      font-weight: 700;
+     
+      
+      }
+
+      .myorder1 >p:nth-child(1){
+        width: 10%;
+        height: 20px;
+        /* border: 2px solid black; */
+        /* margin-left: 80px; */
+        margin-top: 5px;
+        font-weight: 800;
+        font-size: 13px;
+    
+      
+    }
+
+    .orderhistorymaiddiv{
+        width: 80%;
+        height: 250px;
+        border: 2px solid black;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .orderhistory{
+        width: 25%;
+        height: 250px;
+        /* border: 2px solid black; */
+       background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ36l7Ud3e3dGgb9bk7UXU18peG5XVpb9nbnA&s");
+       background-size: cover;
+    }
+    .orderhistory1{
+        width: 50%;
+        height: 250px;
+        /* border: 2px solid black; */
+
+    }
+    .orderhistory1 >h1{
+        padding-top: 15px;
+        font-size: 19px;
+        
+    }
+    .orderhistory1 >p:nth-child(2){
+        padding-top: 15px;
+        font-size: 15px;
+        
+    }
+    .orderhistory1 >p:nth-child(3){
+        padding-top: 10px;
+        font-size: 15px;
+        
+    }
+    .orderhistory1 >p:nth-child(4){
+        padding-top: 10px;
+        font-size: 15px;
+        
+    }
+
+    .orderhistory1 >p:nth-child(5){
+        padding-top: 10px;
+        font-size: 15px;
+        width: 20%;
+        height: 40px;
+        border: 2px solid black;
+        margin-top: 30px;
+        margin-left: 220px;
+    
+    }
+
+
+    .orderhistory2{
+        width: 20%;
+        height: 250px;
+        /* border: 2px solid black; */
+
+    }
+
+    .orderhistory2 >p{
+        color: rgb(104, 14, 14);
+        font-weight: 700;
+        padding-top: 20px;
+
+    }
+    .orderhistory2 >i{
+     
+        padding-top: 30px;
+
+
+    }
+
+    .orderhistorymaiddiv1{
+        width: 80%;
+        height: 250px;
+        border: 2px solid black;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .orderhistory3{
+        width: 25%;
+        height: 250px;
+        /* border: 2px solid black; */
+       background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7faNOyzDHY9MpcShIVTlfwLKCK-RFa471JQ&s");
+       background-size: cover;
+    }
+    .orderhistory4{
+        width: 50%;
+        height: 250px;
+        /* border: 2px solid black; */
+
+    }
+    .orderhistory4 >h1{
+        padding-top: 15px;
+        font-size: 19px;
+        
+    }
+    .orderhistory4 >p:nth-child(2){
+        padding-top: 15px;
+        font-size: 15px;
+        
+    }
+    .orderhistory4 >p:nth-child(3){
+        padding-top: 10px;
+        font-size: 15px;
+        
+    }
+    .orderhistory4 >p:nth-child(4){
+        padding-top: 10px;
+        font-size: 15px;
+        
+    }
+
+    .orderhistory4 >p:nth-child(5){
+        padding-top: 10px;
+        font-size: 15px;
+        width: 20%;
+        height: 40px;
+        border: 2px solid black;
+        margin-top: 30px;
+        margin-left: 220px;
+    
+    }
+
+
+    .orderhistory5{
+        width: 20%;
+        height: 250px;
+        /* border: 2px solid black; */
+
+    }
+
+    .orderhistory5 >p{
+        color: rgb(104, 14, 14);
+        font-weight: 700;
+        padding-top: 20px;
+
+    }
+    .orderhistory5 >i{
+     
+        padding-top: 30px;
+
+
+    }
+
+    .orderhistorymaiddiv2{
+        width: 80%;
+        height: 250px;
+        border: 2px solid black;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .orderhistory6{
+        width: 25%;
+        height: 250px;
+        /* border: 2px solid black; */
+       background-image: url("https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/27392588/2024/3/8/526ebdff-03a8-4571-9f85-14515eca53321709900615350-Puma-Men-Classics-Small-Logo-Pure-Cotton-T-shirt-36170990061-1.jpg");
+       background-size: cover;
+    }
+    .orderhistory7{
+        width: 50%;
+        height: 250px;
+        /* border: 2px solid black; */
+
+    }
+    .orderhistory7 >h1{
+        padding-top: 15px;
+        font-size: 19px;
+        
+    }
+    .orderhistory7 >p:nth-child(2){
+        padding-top: 15px;
+        font-size: 15px;
+        
+    }
+    .orderhistory7 >p:nth-child(3){
+        padding-top: 10px;
+        font-size: 15px;
+        
+    }
+    .orderhistory7 >p:nth-child(4){
+        padding-top: 10px;
+        font-size: 15px;
+        
+    }
+
+    .orderhistory7 >p:nth-child(5){
+        padding-top: 10px;
+        font-size: 15px;
+        width: 20%;
+        height: 40px;
+        border: 2px solid black;
+        margin-top: 30px;
+        margin-left: 220px;
+    
+    }
+
+
+    .orderhistory8{
+        width: 20%;
+        height: 250px;
+        /* border: 2px solid black; */
+
+    }
+
+    .orderhistory8 >p{
+        color: rgb(104, 14, 14);
+        font-weight: 700;
+        padding-top: 20px;
+
+    }
+    .orderhistory8 >i{
+     
+        padding-top: 30px;
+
+
+    }
+
+
+
+    .myorderdivspotlight{
+        width:100%;
+        height: 450px;
+        /* border: 2px solid rgb(17, 16, 16);  */
+        margin-top: 20px;
+        
+      }
+      .myorderdivspotlight1{
+        width: 85%;
+        height: 30px;
+        /* border: 2px solid rgb(17, 16, 16);  */
+        font-size: 12px;
+        margin-left: 100px;
+        text-align: left;
+        padding-top: 50px;
+        
+      }
+      
+      
+      .myorderdivspotlight2{
+        width: 85%;
+        height: 350px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        margin-left: 100px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .myorderspotlightCard1{
+        width: 24%;
+        height: 350px;
+        /* border: 2px solid rgb(17, 16, 16); */
+      }
+      .myordershoescard1{
+        width: 100%;
+        height: 280px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/399844/01/sv01/fnd/IND/fmt/png/PUMA-Court-Shatter-Low-Men's-Sneakers");
+        background-size: cover;
+      }
+      
+      .myorderredcard2{
+        width: 15%;
+        height: 15px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        font-size: 11px;
+        color: white;
+        background-color: #ac1e1e ;
+      
+      }
+      .myorderspotlightCard2{
+        width: 24%;
+        height: 350px;
+        /* border: 2px solid rgb(17, 16, 16); */
+      }
+      .myordershoescard2{
+        width: 100%;
+        height: 280px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/387672/33/sv01/fnd/IND/fmt/png/Rider-Future-Vintage-Unisex-Sneakers");
+        background-size: cover;
+      }
+      .myorderspotlightCard3{
+        width: 24%;
+        height: 350px;
+        /* border: 2px solid rgb(17, 16, 16); */
+      }
+      .myordershoescard3{
+        width: 100%;
+        height: 280px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/107353/01/sv01/fnd/IND/fmt/png/Cricket-Square-Men's-Shoes");
+        background-size: cover;
+      }
+      .myorderspotlightCard4{
+        width: 24%;
+        height: 350px;
+        /* border: 2px solid rgb(17, 16, 16); */
+      }
+      .myordershoescard4{
+        width: 100%;
+        height: 280px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/192259/02/sv01/fnd/IND/fmt/png/Hybrid-NX-Men's-Running-Shoes");
+        background-size: cover;
+      }
+      
+      .myordercardprice1 {
+        width: 100%;
+        height: 80px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        display: flex;
+      }
+      
+      .myordercardprice2{
+        width: 100%;
+        height: 80px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        display: flex;
+      }
+      .myordercardprice3{
+        width: 100%;
+        height: 80px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        display: flex;
+      }
+      .myordercardprice4{
+        width: 100%;
+        height: 80px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        display: flex;
+      }
+      
+      .myorderpricedetail1{
+        width: 70%;
+        height: 80px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        font-size: 17px;
+      }
+      .myorderprice1{
+        width: 30%;
+        height: 80px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        color: rgb(179, 23, 23);
+        font-size: 12px;  
+      }
+      
+      .myorderpricedetail2{
+        width: 70%;
+        height: 80px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        font-size: 17px;
+      }
+      .myorderprice2{
+        width: 30%;
+        height: 80px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        color: rgb(179, 23, 23);
+        font-size: 12px;  
+      }
+      
+      .myorderpricedetail3{
+        width: 70%;
+        height: 80px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        font-size: 17px;
+      }
+      .myorderprice3{
+        width: 30%;
+        height: 80px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        color: rgb(179, 23, 23);
+        font-size: 12px;  
+      }
+      
+      
+      .myorderpricedetail4{
+        width: 70%;
+        height: 80px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        font-size: 17px;
+      }
+      .myorderprice4{
+        width: 30%;
+        height: 80px;
+        /* border: 2px solid rgb(17, 16, 16); */
+        color: rgb(179, 23, 23);
+        font-size: 12px;  
+      }
+
+      .myorderlastdiv{
+        width:100%;
+        height: 450px;
+        border: 2px solid rgb(20, 20, 20);
+      
+      }
+      
+      .myordersupport{
+        width:100%;
+        height: 300px;
+        border: 2px solid rgb(20, 20, 20);
+        background-color: black;
+        color: white;
+        display: flex;
+      
+      }
+
+      .support{
+        width:20%;
+        height: 300px;
+        margin-left: 50px;
+        border: 2px solid rgb(158, 151, 151);
+      }
+      .support >h6{
+        font-size: 14px;
+        padding-top: 40px;
+      }
+
+      .support >p:nth-child(2){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .support >p:nth-child(3){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .support >p:nth-child(4){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .support >p:nth-child(5){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .support >p:nth-child(6){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .support >p:nth-child(7){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .support >p:nth-child(8){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      
+
+
+
+      .faq{
+        width:20%;
+        height: 300px;
+        border: 2px solid rgb(182, 167, 167);
+      }
+
+    
+      .faq >h6{
+        font-size: 14px;
+        padding-top: 60px;
+      }
+
+      .faq >p:nth-child(2){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .faq >p:nth-child(3){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .faq >p:nth-child(4){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .faq >p:nth-child(5){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .faq >p:nth-child(6){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .faq >p:nth-child(7){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+      .about{
+        width:15%;
+        height: 300px;
+        border: 2px solid rgb(219, 202, 202);
+      }
+
+      .about >h6{
+        font-size: 14px;
+        padding-top: 40px;
+      }
+
+      .about >p:nth-child(2){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .about >p:nth-child(3){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .about >p:nth-child(4){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .about >p:nth-child(5){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .about >p:nth-child(6){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .about >p:nth-child(7){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .about >p:nth-child(8){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      .about >p:nth-child(9){
+        font-size: 12px;
+        padding-top: 10px;
+      }
+
+      
+
+
+      .staydate{
+        width:40%;
+        height: 300px;
+        border: 2px solid rgb(216, 210, 210);
+      }
+
+      .staydate1{
+        width:70%;
+        height: 70px;
+        border: 2px solid rgb(216, 210, 210);
+        margin-left: 20px;
+      }
+
+      .staydate1 >h6{
+        font-size: 14px;
+        padding-top: 40px;
+      }
+
+      .staydate1 >p:nth-child(2){
+        font-size: 12px;
+        padding-top: 10px;
+      }
