@@ -193,7 +193,7 @@ width: 12%;
     
  .orderproduct2{
   width: 85%;
-  height: 60px;
+  height: 40px;
   /* border: 2px solid black; */
   margin: auto;
  
@@ -238,40 +238,242 @@ width: 12%;
   .orderproduct4{
     width: 85%;
     height: 170px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: auto;
     display: flex;
   }
   
   .orderproduct5{
-    width: 40%;
-    height: 150px;
-    border: 2px solid black;
-    display: flex;
+    width: 50%;
+    height: 170px;
+    /* border: 2px solid black; */
+   
   }
 
   .profile{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid black; */
+    display: flex;
+    border-bottom: 1px solid rgb(197, 195, 195);
+  
+  }
+  .profile1{
+    width: 50%;
+    height: 20px;
+    /* border: 2px solid rgb(209, 6, 6); */
+   display: flex;
+   padding-top: 10px;
+  }
+
+  .profile1 >i {
+    width: 10%;
+    height: 20px;
+    /* border: 2px solid rgb(209, 6, 6); */
+   
+  }
+
+  .profile1 >h4 {
+    width: 20%;
+    height: 20px;
+    /* border: 2px solid rgb(209, 6, 6); */
+   
+  }
+  .profile2{
+    width: 50%;
+    height: 50px;
+    /* border: 2px solid rgb(209, 6, 6); */
+    
+   
+  }
+
+  .profile2 > h6{
     width: 40%;
+    height: 20px;
+    /* border: 2px solid rgb(209, 6, 6); */
+   margin-left: 160px;
+   padding-top: 15px;
+  }
+
+ .profilesecond{
+  width: 70%;
+  height: 90px;
+  /* border: 2px solid black; */
+font-size: 14px;
+text-align: justify;
+
+ }
+
+ .profilesecond >p:nth-child(1){
+  width: 70%;
+  height: 20px;
+  /* border: 2px solid black; */
+  margin-top: 10px;
+
+ }
+ .profilesecond >p:nth-child(2){
+  width: 70%;
+  height: 20px;
+  /* border: 2px solid black; */
+  margin-top: 10px;
+
+ }
+
+
+
+  .orderproduct6{
+    width: 30%;
     height: 150px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    margin-left: 90px;
+  }
+
+  .bookaddress{
+    width: 100%;
+    height: 30px;
+    /* border: 2px solid black; */
+    border-bottom: 1px solid rgb(179, 177, 177);
+    font-size: 19px;
+  }
+  .bookaddress >h6{
+    width: 29%;
+    height: 20px;
+    /* border: 2px solid black; */
+    margin-top: 15px;  
+    padding-top: 10px; 
+  }
+  
+  .bookaddress1{
+    width: 28%;
+    height:20px;
+    font-size: 13px;
+    /* border: 2px solid black; */
+    padding-top: 9px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+  }
+
+
+
+
+
+  .orderproduct7{
+    width: 85%;
+    height: 170px;
+    /* border: 2px solid black; */
+    margin: auto;
     display: flex;
   }
-
   
-  .profile >P:nth-child(1){
-    width: 40%;
-    height: 150px;
-    border: 2px solid black;
+  .orderproduct8{
+    width: 50%;
+    height: 170px;
+    /* border: 2px solid black; */
+   
   }
 
+  .profile3{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid black; */
+    display: flex;
+    border-bottom: 1px solid rgb(197, 195, 195);
   
-  .profile > h2{
-    width: 40%;
-    height: 150px;
-    border: 2px solid black;
   }
-  .orderproduct6{
-    width: 25%;
+  .profile4{
+    width: 50%;
+    height: 20px;
+    /* border: 2px solid rgb(209, 6, 6); */
+   display: flex;
+   padding-top: 10px;
+  }
+
+  .profile4 >i {
+    width: 10%;
+    height: 20px;
+    /* border: 2px solid rgb(209, 6, 6); */
+   
+  }
+
+  .profile4 >h4 {
+    width: 20%;
+    height: 20px;
+    /* border: 2px solid rgb(209, 6, 6); */
+   
+  }
+  .profile5{
+    width: 50%;
+    height: 50px;
+    /* border: 2px solid rgb(209, 6, 6); */
+    
+   
+  }
+
+  .profile5 > h6{
+    width: 40%;
+    height: 20px;
+    /* border: 2px solid rgb(209, 6, 6); */
+   margin-left: 160px;
+   padding-top: 15px;
+  }
+
+ .profilesecond1{
+  width: 70%;
+  height: 90px;
+  /* border: 2px solid black; */
+font-size: 14px;
+text-align: justify;
+display: flex;
+
+ }
+
+ .profilesecond1 >p:nth-child(1){
+  width: 50%;
+  height: 20px;
+  border: 2px solid black;
+  margin-top: 10px;
+
+ }
+ .profilesecond1 >p:nth-child(2){
+  width: 50%;
+  height: 20px;
+  border: 2px solid black;
+  margin-top: 10px;
+
+ }
+
+
+
+  .orderproduct9{
+    width: 30%;
     height: 150px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    margin-left: 90px;
+  }
+
+  .bookaddress2{
+    width: 100%;
+    height: 30px;
+    /* border: 2px solid black; */
+    border-bottom: 1px solid rgb(179, 177, 177);
+    font-size: 19px;
+  }
+  .bookaddress2 >h6{
+    width: 29%;
+    height: 20px;
+    /* border: 2px solid black; */
+    margin-top: 15px;  
+    padding-top: 10px; 
+  }
+  
+  .bookaddress3{
+    width: 28%;
+    height:20px;
+    font-size: 13px;
+    /* border: 2px solid black; */
+    padding-top: 9px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
   }

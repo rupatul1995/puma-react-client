@@ -73,18 +73,66 @@ function OrderProduct(){
      </div>
 
      <div className="orderproduct4">
-        <div  className="orderproduct5">
-            <div  className="profile">
-            <p>Profile</p>
-            <h2><u>EDIT PROFILE</u></h2>
+       <div className="orderproduct5">
+        <div className="profile">
+            <div className="profile1">
+            <i class="fa-regular fa-user"></i>
+            <h4>Profile</h4>
             </div>
-            <div className="profile"></div>
+
+            <div className="profile2">
+                <h6><u>EDIT PROFILE</u></h6>
+            </div>
         </div>
 
-        <div className="orderproduct6"></div>
+        <div className="profilesecond">
+            <p><b>Name:</b> Rupali Marathe</p>
+            <p><b>Email:</b> rupali@gmail.com</p>
+        </div>
+       </div>
+
+       <div className="orderproduct6">
+        <div className="bookaddress">
+            <h6>Address Book</h6>
+        </div>
+        <div  className="bookaddress1">
+            <p>ADD NEW</p>
+        </div>
+       </div>
      </div>
 
 
+
+
+     <div className="orderproduct7">
+     <div className="orderproduct8">
+        <div className="profile3">
+            <div className="profile4">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <h4>Profile</h4>
+            </div>
+
+            <div className="profile5">
+                <h6><u>CHANGE PASSWORD</u></h6>
+            </div>
+        </div>
+
+        <div className="profilesecond1">
+            <b>Password:</b> 
+            <input /> 
+          
+        </div>
+       </div>
+
+       <div className="orderproduct9">
+        <div className="bookaddress2">
+            <h6>Address Book</h6>
+        </div>
+        <div  className="bookaddress3">
+            <p>ADD NEW</p>
+        </div>
+       </div>
+       </div>
 
 
      </div>
