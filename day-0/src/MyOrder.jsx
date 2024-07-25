@@ -235,11 +235,46 @@ return(
                             <h6>STAY UP TO DATE</h6>
                             <p>Sign Up for Email</p>
                             </div>
+
+                            <div  className="staydate2">
+                              
+                            <p><i class="fa-brands fa-square-youtube"></i></p>
+                            <i class="fa-brands fa-twitter" ></i>
+                            <i class="fa-solid fa-p"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            </div>
+
+                            <div  className="staydate3">
+                             <h1> EXPLORE</h1>
+                            </div>
+
+                            <div class="staydate6">
+                            <div class="staydate4">
+                               <img  src="https://assets.turbologo.com/blog/en/2019/11/19084917/puma-logo-cover-958x575.png"  />
+                               <p>APP</p>
+                            </div>
+                            <div class="staydate5">
+                               <img  src="https://assets.turbologo.com/blog/en/2019/11/19084917/puma-logo-cover-958x575.png"  />
+                               <p>TRAC</p>
+                            </div>
+                            </div>
+                        
                         </div>
+
                     </div>
 
 
-                    <div className="myorderindia"></div>
+                    <div className="myorderindia">
+                    <div class="staydate7">
+                       <div className="myorderindia1">
+                        <p > </p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                       </div>
+                   </div>
+                    </div>
             </div>
               
 
